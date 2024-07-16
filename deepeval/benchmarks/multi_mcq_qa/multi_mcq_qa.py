@@ -6,16 +6,16 @@ from tqdm import tqdm
 from deepeval.dataset import Golden
 from deepeval.benchmarks.base_benchmark import DeepEvalBaseBenchmark
 from deepeval.models import DeepEvalBaseLLM
-from deepeval.benchmarks.multi_med_qa_mcq.template import MultiMedQAMCQTemplate
+from deepeval.benchmarks.multi_mcq_qa.template import Multi_MCQ_QA_PromptTemplate
 from deepeval.benchmarks.utils import should_use_batch
 from deepeval.scorer import Scorer
 import json
 
-class MultiMedQAMCQ(DeepEvalBaseBenchmark):
+class Multi_MCQ_QA(DeepEvalBaseBenchmark):
     def __init__(
-        self, dataset_path,number_of_rows_to_consider: int=None,tasks: List[str] = None, n_shots: int = 5, **kwargs
+        self, dataset_path,system_message_template:str="You are a helpful AI Assistant",user_message_template:str="Question: {question} \n Options: {options} \n {context}  ",assistant_message_template:str="Assistant: {}",assistant_start_template:str="Assistant: ",number_of_rows_to_consider: int=None,tasks: List[str] = None, n_shots: int = 5,**kwargs
     ):
-        assert n_shots <= 5, "MMLU only supports n_shots <= 5"
+        assert n_shots <= 5, "Multi_MCQ_QA only supports n_shots <= 5"
         super().__init__(**kwargs)
         self.tasks=tasks
         self.scorer = Scorer()
@@ -26,6 +26,12 @@ class MultiMedQAMCQ(DeepEvalBaseBenchmark):
         self.overall_score: Optional[float] = None
         self.number_of_rows_to_consider=number_of_rows_to_consider
         self.dataset_path=dataset_path
+
+        self.system_message_template=system_message_template
+        self.user_message_template=user_message_template
+        self.assistant_message_template=assistant_message_template
+        self.assistant_start_template=assistant_start_template
+
 
     def evaluate(
         self, model: DeepEvalBaseLLM, batch_size: Optional[int] = None
@@ -61,7 +67,7 @@ class MultiMedQAMCQ(DeepEvalBaseBenchmark):
                             task_correct_predictions += 1
                             overall_correct_predictions += 1
                         predictions_row.append(
-                            (task, golden.input, prediction, score)
+                            (task, golden.input, prediction,golden.context,golden.expected_output,score)
                         )
             else:
                 for golden in tqdm(goldens, desc=f"Processing {task}"):
@@ -72,7 +78,7 @@ class MultiMedQAMCQ(DeepEvalBaseBenchmark):
                         task_correct_predictions += 1
                         overall_correct_predictions += 1
                     predictions_row.append(
-                        (task, golden.input, prediction, score)
+                        (task, golden.input, prediction,golden.context,golden.expected_output,score)
                     )
 
             task_accuracy = task_correct_predictions / task_total_predictions
@@ -88,7 +94,7 @@ class MultiMedQAMCQ(DeepEvalBaseBenchmark):
         # Create a DataFrame from task_results_data
         # Columns: 'Task', 'Input', 'Prediction', 'Score'
         self.predictions = pd.DataFrame(
-            predictions_row, columns=["Task", "Input", "Prediction", "Correct"]
+            predictions_row, columns=["Task", "Input", "Prediction","Context","Correct Answer","Score"]
         )
         self.task_scores = pd.DataFrame(scores_row, columns=["Task", "Score"])
         self.overall_score = overall_accuracy
@@ -102,17 +108,22 @@ class MultiMedQAMCQ(DeepEvalBaseBenchmark):
         assert (
             self.shots_dataset != None
         ), "Example dataset is empty. Call load_benchmark."
-        prompt: dict = MultiMedQAMCQTemplate.generate_output(
+        prompt: dict = Multi_MCQ_QA_PromptTemplate.generate_output(
             train_set=self.shots_dataset,
             input=golden.input,
             task=task,
             n_shots=self.n_shots,
+            system_message_template= self.system_message_template,
+            user_message_template=self.user_message_template,
+            assistant_message_template=self.assistant_message_template,
+            assistant_start_template=self.assistant_message_template
+            
         )
 
-        print("MMLU Prompt: ",prompt)
+        #print("Final Prompt: ",prompt)
 
         prediction = model.generate(prompt)
-        print("LLM Prediction: ",prediction)
+        #print("LLM Prediction: ",prediction)
         # For native models, shouldn't happen but just in case
         if isinstance(prediction, tuple):
             prediction = prediction[0]
@@ -121,7 +132,7 @@ class MultiMedQAMCQ(DeepEvalBaseBenchmark):
         score = self.scorer.exact_match_score(
             golden.expected_output, prediction
         )
-        print("Golden Expected Output: ",golden.expected_output)
+        #print("Golden Expected Output: ",golden.expected_output)
         return {"prediction": prediction, "score": score}
 
     def batch_predict(
@@ -135,11 +146,15 @@ class MultiMedQAMCQ(DeepEvalBaseBenchmark):
         prompts = []
         for golden in goldens:
 
-            prompt: dict = MultiMedQAMCQTemplate.generate_output(
+            prompt: dict = Multi_MCQ_QA_PromptTemplate.generate_output(
                 train_set=self.shots_dataset,
                 input=golden.input,
                 task=task,
                 n_shots=self.n_shots,
+                system_message_template= self.system_message_template,
+                user_message_template=self.user_message_template,
+                assistant_message_template=self.assistant_message_template,
+                assistant_start_template=self.assistant_message_template
             )
             prompts.append(prompt)
 
@@ -152,14 +167,14 @@ class MultiMedQAMCQ(DeepEvalBaseBenchmark):
         res = []
         for i in range(len(predictions)):
             prediction = predictions[i]
-            print("Prediction: ",prediction)
+            #print("Prediction: ",prediction)
             golden = goldens[i]
             # Define Metric
             score = self.scorer.exact_match_score(
                 golden.expected_output, prediction
             )
-            print("Score: ", score)
-            print("Golden Expected Output: ",golden.expected_output)
+            #print("Score: ", score)
+            #print("Golden Expected Output: ",golden.expected_output)
             res.append({"prediction": prediction, "score": score})
 
         return res
@@ -185,8 +200,8 @@ class MultiMedQAMCQ(DeepEvalBaseBenchmark):
         # Construct test set
         goldens: List[Golden] = []
         for data in dataset["test"][:self.number_of_rows_to_consider]:
-            print("Golden Dataset data Point: ",data)
-            input = MultiMedQAMCQTemplate.format_question(data, include_answer=False)
+            #print("Golden Dataset data Point: ",data)
+            input = Multi_MCQ_QA_PromptTemplate.format_question(data, self.user_message_template, self.assistant_message_template, self.assistant_start_template, include_answer=False)
             context_data = data["data"].get("Context", None)
 
             if context_data:

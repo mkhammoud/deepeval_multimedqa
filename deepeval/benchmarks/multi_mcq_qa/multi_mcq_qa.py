@@ -56,7 +56,7 @@ class Multi_MCQ_QA(DeepEvalBaseBenchmark):
                 ):
                     goldens_batch = goldens[i : i + batch_size]
                     batch_predictions = self.batch_predict(
-                        model, task, goldens_batch
+                        model, task, goldens_batch, batch_size
                     )
                     for golden, prediction_dict in zip(
                         goldens_batch, batch_predictions
@@ -136,7 +136,7 @@ class Multi_MCQ_QA(DeepEvalBaseBenchmark):
         return {"prediction": prediction, "score": score}
 
     def batch_predict(
-        self, model: DeepEvalBaseLLM, task: str, goldens: List[Golden]
+        self, model: DeepEvalBaseLLM, task: str, goldens: List[Golden], batch_size:int
     ) -> List[Dict]:
         # Define prompt template
         assert (
@@ -158,7 +158,7 @@ class Multi_MCQ_QA(DeepEvalBaseBenchmark):
             )
             prompts.append(prompt)
 
-        predictions = model.batch_generate(prompts)
+        predictions = model.batch_generate(prompts,batch_size)
         if len(predictions) is not len(goldens):
             raise ValueError(
                 "Custom `batch_generate` method did not return the same number of generations as the number of prompts."

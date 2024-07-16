@@ -1,6 +1,6 @@
 class GEvalTemplate:
     @staticmethod
-    def generate_evaluation_steps(parameters, criteria):
+    def generate_evaluation_steps(parameters, criteria, generate_evaluation_steps_prompt_template):
         return f"""Given an evaluation criteria which outlines how you should judge the {parameters}, generate 3-4 concise evaluation steps based on the criteria below. You MUST make it clear how to evaluate {parameters} in relation to one another.
 
 Evaluation Criteria:

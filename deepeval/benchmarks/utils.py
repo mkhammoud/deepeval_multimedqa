@@ -8,7 +8,7 @@ def should_use_batch(model: DeepEvalBaseLLM, batch_size: Optional[int] = None):
         return False
 
     try:
-        model.batch_generate([""])
+        model.batch_generate([""],batch_size)
     except Exception as AttributeError:
         return False
     except:

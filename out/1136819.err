@@ -1,0 +1,13 @@
+/home/kunet.ae/ku5001069/.conda/envs/deepeval/lib/python3.10/site-packages/deepeval/__init__.py:42: UserWarning: You are using deepeval version 0.21.65, however version 0.21.66 is available. You should consider upgrading via the "pip install --upgrade deepeval" command.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:09<00:27,  9.05s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:14<00:13,  6.84s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:24<00:08,  8.57s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:28<00:00,  6.61s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:28<00:00,  7.15s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Batch Processing medmcqa (batch_size=5):   0%|          | 0/836 [00:00<?, ?it/s]A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Batch Processing medmcqa (batch_size=5):   0%|          | 1/836 [00:06<1:26:35,  6.22s/it]A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Batch Processing medmcqa (batch_size=5):   0%|          | 1/836 [00:12<2:49:56, 12.21s/it]
+Transient error StatusCode.DEADLINE_EXCEEDED encountered while exporting traces to otlp.nr-data.net:4317, retrying in 1s.
+Transient error StatusCode.UNAVAILABLE encountered while exporting traces to otlp.nr-data.net:4317, retrying in 2s.
+Transient error StatusCode.UNAVAILABLE encountered while exporting traces to otlp.nr-data.net:4317, retrying in 4s.
+Transient error StatusCode.UNAVAILABLE encountered while exporting traces to otlp.nr-data.net:4317, retrying in 8s.
+Transient error StatusCode.UNAVAILABLE encountered while exporting traces to otlp.nr-data.net:4317, retrying in 16s.
+Transient error StatusCode.UNAVAILABLE encountered while exporting traces to otlp.nr-data.net:4317, retrying in 32s.

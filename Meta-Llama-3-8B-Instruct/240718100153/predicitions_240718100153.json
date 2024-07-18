@@ -1,0 +1,402 @@
+[
+    {
+        "Task":"mmlu_pro_health",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Removal of adhesive strips:. .  \n Here are the Options: \nA:should be undertaken under aseptic conditions.\nB:can be carried out by the patient.\nC:should not be undertaken until at least seven days after application.\nD:can be performed immediately after application.\nE:should not be undertaken until at least ten days after application.\nF:requires specific equipment.\nG:should be done in a sterile environment.\nH:is a specialist skill.. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"C",
+        "Context":null,
+        "Correct Answer":"B",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_pro_health",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Which is the most reliable way to assess for clubbing?. .  \n Here are the Options: \nA:Inspect the nail-bed angle from the side\nB:Inspect the nail-bed curvature from below\nC:Inspect the nail-bed angle from above\nD:Assessing the nail's texture\nE:Schamroth's sign\nF:Measuring the width of the nail\nG:Checking for pain in the nail-bed\nH:Checking the color of the nail-bed\nI:Measuring the length of the nail\nJ:Assessing the fluctuancy of the nail-bed. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"E",
+        "Context":null,
+        "Correct Answer":"A",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_pro_health",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Bronchial breathing is characterized by. .  \n Here are the Options: \nA:Inspiratory component louder and longer with a gap between inspiration and expiration\nB:Inspiratory component louder and longer, but no gap between expiration and inspiration\nC:Expiratory component louder and longer, but no gap between expiration and inspiration\nD:Both inspiratory and expiratory components are equal in length and volume\nE:Inspiratory component louder and longer with a gap between expiration and inspiration\nF:Both inspiratory and expiratory components are equal with no gap between them\nG:Expiratory component louder and longer with a gap between inspiration and expiration\nH:Expiratory component louder and longer with a gap between expiration and inspiration\nI:Inspiratory component shorter and quieter with a gap between expiration and inspiration\nJ:Expiratory component shorter and quieter with a gap between inspiration and expiration. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"A",
+        "Context":null,
+        "Correct Answer":"G",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_pro_health",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: When you are taking a musculoskeletal history which of the following is true?. .  \n Here are the Options: \nA:Joint stiffness of 5 minutes duration suggests an arthropathy\nB:Difficulty walking is diagnostic of fibromyalgia\nC:Joint stiffness of 10 minutes duration suggests a neurologic disorder\nD:Drugs may be implicated in the causation of gout\nE:A history of diarrhoea is not relevant\nF:Difficulty rising from a chair is diagnostic of polymyalgic rheumatica\nG:Difficulty rising from a chair is diagnostic of osteoarthritis\nH:A history of diabetes is not relevant\nI:Joint stiffness of over an hour suggests a muscular disorder. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"D",
+        "Context":null,
+        "Correct Answer":"D",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_pro_health",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: The patient's self-report of pain is important because health care staff:. .  \n Here are the Options: \nA:can determine the patient's pain threshold.\nB:can overestimate the intensity of the patient's pain.\nC:can compare it with other patients' pain levels.\nD:do not possess an objective way of assessing pain.\nE:can use the information to prescribe and administer the maximum possible amount of pain relief.\nF:underestimate the intensity of the patient's pain.\nG:are able to visually assess the patient's pain level.\nH:can measure the patient's pain with medical instruments.\nI:can use the information to prescribe and administer the least possible amount of pain relief.\nJ:can ignore the patient's pain.. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"I",
+        "Context":null,
+        "Correct Answer":"D",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_pro_health",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: The docility hypothesis is that. .  \n Here are the Options: \nA:Those who experience low environmental demands become less docile\nB:Those with less capability are less vulnerable to environmental demands\nC:Those with low capabilities are more vulnerable to environmental demands\nD:Those with high capabilities become less vulnerable to environmental demands\nE:Those with high capabilities are more vulnerable to environmental demands\nF:Those who experience high environmental demands become less docile\nG:Those with high capability become less docile in low environmental demands\nH:Those who experience low environmental demands become more docile. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"H",
+        "Context":null,
+        "Correct Answer":"C",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_pro_health",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: In which dementia are cognitive symptoms less likely?. .  \n Here are the Options: \nA:Parkinson's\nB:Vascular dementia\nC:Pick's\nD:Creutzfeldt-Jakob disease\nE:Frontotemporal dementia\nF:NeuroAIDS\nG:Alzheimer's\nH:Huntington's\nI:Lewy body dementia\nJ:Mixed dementia. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"B",
+        "Context":null,
+        "Correct Answer":"A",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_pro_health",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Remarriages are. .  \n Here are the Options: \nA:More frequent for men than women\nB:Illegal in most countries\nC:Most common among those who have never been married before\nD:Typically more successful\nE:Always unsuccessful\nF:Always successful\nG:More frequent for woman than men\nH:Typically less successful\nI:Only allowed after a certain period of time\nJ:Most common among those who have been married multiple times before. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"A",
+        "Context":null,
+        "Correct Answer":"H",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_pro_health",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: An example of a discontinuous change over the adult years is the change in. .  \n Here are the Options: \nA:Personality\nB:Skin elasticity\nC:Physical strength\nD:Male hormone levels\nE:Hair color\nF:Working memory\nG:Female hormone levels\nH:Male sexuality\nI:Vision acuity\nJ:Sleep patterns. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"B",
+        "Context":null,
+        "Correct Answer":"G",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_pro_health",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: A problem for immune system theories of senescence is. .  \n Here are the Options: \nA:Determining what first causes the senescence in the immune system\nB:The immune system theories do not explain the role of lifestyle in senescence\nC:Immune system theories do not explain the role of genetic factors in senescence\nD:Immune system theories are too complex to test effectively\nE:The lack of information about senescence in general\nF:That the immune system improves with age\nG:Immune system theories cannot account for the environmental factors in senescence\nH:That the immune system does not decline with age\nI:The difficulty of isolating the immune system from other bodily systems\nJ:Auto-immune disorders are far too rare. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"A",
+        "Context":null,
+        "Correct Answer":"A",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_pro_health",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Very rapid disposal of the body, before sundown on the day of the death, is typical of which religion?. .  \n Here are the Options: \nA:Tao\nB:Jewish\nC:Hindu\nD:Baha'i\nE:Islam\nF:Zoroastrianism\nG:Sikhism\nH:Buddhism\nI:Christianity\nJ:Shinto. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"E",
+        "Context":null,
+        "Correct Answer":"C",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_pro_health",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Which of the following is NOT among the top 10 causes of death in the U. S.?. .  \n Here are the Options: \nA:Skin cancer\nB:Kidney diseases\nC:Accidents\nD:Septicemia\nE:AIDS. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"E",
+        "Context":null,
+        "Correct Answer":"E",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_pro_health",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Nature is more important for ______ differences, while nurture has greater influence on ______ differences.. .  \n Here are the Options: \nA:structural and psychological; anatomical and social\nB:structural and anatomical; psychological and social\nC:social and structural; anatomical and psychological\nD:psychological and social; structural and anatomical\nE:psychological and anatomical; structural and social\nF:psychological and structural; social and anatomical\nG:social and anatomical; psychological and structural\nH:anatomical and structural; social and psychological\nI:anatomical and social; structural and psychological\nJ:social and psychological; structural and anatomical. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"A",
+        "Context":null,
+        "Correct Answer":"B",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_pro_health",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Which of the following anatomical regions of abdomen lies just distal to the sternum?. .  \n Here are the Options: \nA:Pectoral\nB:Iliac\nC:Subcostal\nD:Umbilical\nE:Hypochondriac\nF:Epigastric\nG:Costal\nH:Inguinal\nI:Hypogastric\nJ:Lumbar. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"E",
+        "Context":null,
+        "Correct Answer":"F",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_pro_health",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: The auditory tube. .  \n Here are the Options: \nA:is opened by the action of levator veli palatini.\nB:is closed by the action of tensor veli palatini.\nC:connects the outer ear and nasopharynx.\nD:is derived from the second pharyngeal pouch.\nE:is derived from the third pharyngeal pouch.\nF:connects the inner ear and nasopharynx.. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"B",
+        "Context":null,
+        "Correct Answer":"A",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_pro_health",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: The muscles of the soft palate are innervated by branches of the. .  \n Here are the Options: \nA:facial and vagus nerves.\nB:trigeminal and hypoglossal nerves.\nC:facial and glossopharyngeal nerves.\nD:trigeminal and glossopharyngeal nerves.\nE:optic and oculomotor nerves.\nF:olfactory and optic nerves.\nG:facial and hypoglossal nerves.\nH:glossopharyngeal and vagus nerves.\nI:trigeminal and facial nerves.\nJ:trigeminal and vagus nerves.. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"C",
+        "Context":null,
+        "Correct Answer":"J",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_pro_health",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: In the spinal cord, motor neuron cell bodies are located in. .  \n Here are the Options: \nA:Lamina V.\nB:Lamina I.\nC:Lamina III.\nD:Lamina VI.\nE:Lamina IX\nF:Lamina II.\nG:Lamina X.\nH:Lamina IV.\nI:Lamina VII.\nJ:Lamina VIII.. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"E",
+        "Context":null,
+        "Correct Answer":"E",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_pro_health",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: The coronary arteries. .  \n Here are the Options: \nA:arise from the ascending aorta and do not fill during either systole or diastole.\nB:arise from the arch of the aorta and do not fill during either systole or diastole.\nC:arise from the ascending aorta and fill during systole.\nD:arise from the arch of the aorta and fill during systole.\nE:arise from the pulmonary artery and fill during systole.\nF:arise from the pulmonary artery and fill during diastole.\nG:arise from the descending aorta and fill during systole.\nH:arise from the descending aorta and fill during diastole.\nI:arise from the ascending aorta and fill during diastole.\nJ:arise from the arch of the aorta and fill during diastole.. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"I",
+        "Context":null,
+        "Correct Answer":"I",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_pro_health",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Which of the following bones develop by endochondral ossification?. .  \n Here are the Options: \nA:The ribs, sternum, clavicle, vertebrae and femur\nB:The ribs, sternum, clavicle and vertebrae\nC:The ribs, sternum, clavicle, vertebrae and pelvis\nD:The sternum and clavicle\nE:The ribs and pelvis\nF:The ribs, sternum and femur\nG:The ribs and sternum\nH:The ribs, sternum, clavicle, vertebrae, pelvis and femur\nI:The ribs, sternum and clavicle\nJ:The ribs. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"A",
+        "Context":null,
+        "Correct Answer":"G",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_pro_health",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Which of the following foramina pierce the sphenoid bone?. .  \n Here are the Options: \nA:The foramen ovale\nB:The foramen ovale, rotundum and spinosum\nC:The foramen ovale, foramen spinosum and foramen lacerum\nD:The foramen ovale and rotundum\nE:The foramen ovale, rotundum, spinosum and superior orbital fissure\nF:The foramen ovale, rotundum, spinosum and carotid canal\nG:Only the foramen rotundum\nH:The foramen ovale, rotundum and spinosum and foramen lacerum\nI:The foramen ovale, rotundum, spinosum and foramen magnum\nJ:The foramen ovale and foramen spinosum. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"B",
+        "Context":null,
+        "Correct Answer":"B",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_pro_health",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: A patient with damage to their cervical sympathetic chain will show the following signs and symptoms.. .  \n Here are the Options: \nA:Pupillary constriction and vasodilation of facial vessels\nB:Pupillary dilation\nC:Pupillary constriction, vasoconstriction of facial vessels and increased facial sweating\nD:Pupillary dilation, vasoconstriction of facial vessels, decreased facial sweating and increased lacrimation\nE:Pupillary constriction, vasodilation of facial vessels, increased facial sweating and decreased lacrimation\nF:Pupillary constriction, vasodilation of facial vessels and increased facial sweating\nG:Pupillary constriction and vasodilation of facial vessels, decreased facial sweating and increased lacrimation\nH:Pupillary constriction\nI:Pupillary dilation and vasoconstriction of facial vessels\nJ:Pupillary dilation, vasoconstriction of facial vessels and decreased facial sweating. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"C",
+        "Context":null,
+        "Correct Answer":"A",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_pro_health",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: An 18-year-old man is brought to the emergency department 10 minutes after he sustained a stab wound to his chest. On arrival, he is unresponsive to painful stimuli. His pulse is 130\/min, respirations are 8\/min and shallow, and palpable systolic blood pressure is 60 mm Hg. He is intubated and mechanically ventilated, and infusion of 0.9% saline is begun. After 5 minutes, his pulse is 130\/min, and blood pressure is 70\/40 mm Hg. Examination shows a 2-cm wound at the left sixth intercostal space at the midclavicular line. There is jugular venous distention. Breath sounds are normal. The trachea is at the midline. Heart sounds are not audible. Which of the following is the most appropriate next step in management?. .  \n Here are the Options: \nA:Pericardiocentesis\nB:Perform a CT scan of the chest\nC:Thoracentesis\nD:Bronchoscopy\nE:Administer morphine for pain management\nF:Echocardiography\nG:Chest x-ray\nH:Surgical exploration of the wound\nI:Administer intravenous antibiotics\nJ:Administer oxygen therapy. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"H",
+        "Context":null,
+        "Correct Answer":"A",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_pro_health",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: A 23-year-old woman with bone marrow failure is treated with a large dose of rabbit antithymocyte globulin. Ten days later, she develops fever, lymphadenopathy, arthralgias, and erythema on her hands and feet. Which of the following is the most likely cause of these symptoms?. .  \n Here are the Options: \nA:Activation of complement system\nB:Overproduction of monocytes\nC:Cytokine secretion by natural killer cells\nD:Hyperactive B-lymphocyte response\nE:Allergic reaction to rabbit proteins\nF:Immune complex deposition in tissues\nG:Polyclonal T-lymphocyte activation\nH:Eosinophil degranulation\nI:Increased production of interferon-gamma\nJ:Acute graft-versus-host disease. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"E",
+        "Context":null,
+        "Correct Answer":"F",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_pro_health",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: A 29-year-old male presents to the office with the complaints of a pounding heart, poor sleep, and a generalized feeling of restlessness. He relocated 2 months ago to take a promotion and has found himself unable to concentrate on his new duties. He worries about his ability to adapt to his increase in responsibility at work and states that he has called in sick 3 days within the past 2 weeks. The most likely diagnosis is. .  \n Here are the Options: \nA:social anxiety disorder\nB:adjustment disorder with anxious mood\nC:post-traumatic stress disorder\nD:panic disorder\nE:dysthymia\nF:obsessive-compulsive personality disorder\nG:major depressive disorder, single episode, moderate\nH:bipolar disorder\nI:generalized anxiety disorder\nJ:schizophrenia. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"B",
+        "Context":null,
+        "Correct Answer":"B",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_pro_health",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: A 47-year-old man is brought to the emergency department 2 hours after the sudden onset of shortness of breath, severe chest pain, and sweating. He has no history of similar symptoms. He has hypertension treated with hydrochlorothiazide. He has smoked one pack of cigarettes daily for 30 years. His pulse is 110\/min, respirations are 24\/min, and blood pressure is 110\/50 mm Hg. A grade 3\/6, diastolic blowing murmur is heard over the left sternal border and radiates to the right sternal border. Femoral pulses are decreased bilaterally. An ECG shows left ventricular hypertrophy. Which of the following is the most likely diagnosis?. .  \n Here are the Options: \nA:Acute myocardial infarction\nB:Congestive heart failure\nC:Angina pectoris\nD:Aortic dissection\nE:Mitral valve prolapse\nF:Esophageal rupture\nG:Hypertensive crisis\nH:Thoracic aortic aneurysm\nI:Pulmonary embolism\nJ:Aortic stenosis. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"D",
+        "Context":null,
+        "Correct Answer":"D",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_pro_health",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: A 47-year-old man is brought to the emergency department 2 hours after the sudden onset of shortness of breath, severe chest pain, and sweating. He has no history of similar symptoms. He has hypertension treated with hydrochlorothiazide. He has smoked one pack of cigarettes daily for 30 years. His pulse is 110\/min, respirations are 24\/min, and blood pressure is 110\/50 mm Hg. A grade 3\/6, diastolic blowing murmur is heard over the left sternal border and radiates to the right sternal border. Femoral pulses are decreased bilaterally. An ECG shows left ventricular hypertrophy. Which of the following is the most likely diagnosis?. .  \n Here are the Options: \nA:Acute myocardial infarction\nB:Congestive heart failure\nC:Angina pectoris\nD:Aortic dissection\nE:Mitral valve prolapse\nF:Esophageal rupture\nG:Hypertensive crisis\nH:Thoracic aortic aneurysm\nI:Pulmonary embolism\nJ:Aortic stenosis. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"D",
+        "Context":null,
+        "Correct Answer":"D",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_pro_health",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: A 78-year-old male presents to the office with the complaint of severe neck pain. He rates the pain as a 7 on a scale of 0 to 10 scale. He denies any trauma but reports that he had been doing a lot of painting over the past week. He denies any radicular pain or numbness. Cervical range of motion is moderately limited in all fields. He is treated with articulatory springing technique. Four hours later the physician receives a call from the local emergency department, where the patient presented confused, nauseated, and vertiginous. The physician may be found liable if. .  \n Here are the Options: \nA:the motion barrier was articulated more than 3 times\nB:the motion barrier was met with a vectored force from the direction of ease\nC:the neck was treated in simultaneous hyperrotation and extension\nD:the patient was previously treated for osteoarthritis of the cervical spine. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"C",
+        "Context":null,
+        "Correct Answer":"C",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_pro_health",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: A 78-year-old male presents to the office with the complaint of severe neck pain. He rates the pain as a 7 on a scale of 0 to 10 scale. He denies any trauma but reports that he had been doing a lot of painting over the past week. He denies any radicular pain or numbness. Cervical range of motion is moderately limited in all fields. He is treated with articulatory springing technique. Four hours later the physician receives a call from the local emergency department, where the patient presented confused, nauseated, and vertiginous. The physician may be found liable if. .  \n Here are the Options: \nA:the neck was treated in simultaneous hyperrotation and extension\nB:the treatment was performed without first conducting a thorough physical examination\nC:the treatment was performed without prior consent from the patient\nD:the physician failed to recognize the patient's age as a risk factor for complications\nE:the patient was previously treated for osteoarthritis of the cervical spine\nF:the patient was not properly instructed on aftercare following the treatment\nG:the physician did not ask about any pre-existing conditions before treatment\nH:the patient was not advised of potential risks before the treatment\nI:the motion barrier was articulated more than 3 times\nJ:the motion barrier was met with a vectored force from the direction of ease. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"A",
+        "Context":null,
+        "Correct Answer":"A",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_pro_health",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: A 27-year-old woman, gravida 2, para 1, at 12 weeks' gestation comes to the physician for a prenatal visit. She feels well. Pregnancy and delivery of her first child were uncomplicated. Medications include folic acid and a multivitamin. Her temperature is 37.2°C (99°F), and blood pressure is 108\/60 mm Hg. Pelvic examination shows a uterus consistent in size with a 12-week gestation. Urine dipstick shows leukocyte esterase; urinalysis shows WBCs and rare gram-negative rods. Which of the following is the most appropriate next step in management?. .  \n Here are the Options: \nA:Recommend drinking 8 oz of cranberry juice daily\nB:Oral amoxicillin therapy\nC:Oral metronidazole therapy\nD:Intravenous cefazolin therapy. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"C",
+        "Context":null,
+        "Correct Answer":"B",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_pro_health",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: A 25-year-old man is brought to the emergency department because of a 6-day history of fever, severe muscle pain, and diffuse, painful swelling of his neck, underarms, and groin area. The symptoms began after returning from a camping trip in New Mexico. He appears ill and lethargic and can barely answer questions. His temperature is 39.2°C (102.5°F), pulse is 120\/min, respirations are 22\/min, and blood pressure is 110\/70 mm Hg. Physical examination shows generalized scattered black maculae. Examination of the right upper extremity shows an erythematous, solid, tender mass on the underside of the upper extremity just above the elbow; the mass is draining blood and necrotic material. The most effective antibiotic for this patient’s disorder will interfere with which of the following cellular processes or enzymes?. .  \n Here are the Options: \nA:DNA helicase\nB:Ribosomal assembly\nC:Mitochondrial ATP synthesis\nD:Glucuronosyltransferase\nE:Topoisomerase II activity\nF:Lipid synthesis\nG:RNA polymerase activity\nH:Cell wall synthesis\nI:Proteasomal degradation\nJ:Phospholipase function. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"H",
+        "Context":null,
+        "Correct Answer":"B",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_pro_health",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: A 25-year-old man is brought to the emergency department because of a 6-day history of fever, severe muscle pain, and diffuse, painful swelling of his neck, underarms, and groin area. The symptoms began after returning from a camping trip in New Mexico. He appears ill and lethargic and can barely answer questions. His temperature is 39.2°C (102.5°F), pulse is 120\/min, respirations are 22\/min, and blood pressure is 110\/70 mm Hg. Physical examination shows generalized scattered black maculae. Examination of the right upper extremity shows an erythematous, solid, tender mass on the underside of the upper extremity just above the elbow; the mass is draining blood and necrotic material. The most effective antibiotic for this patient’s disorder will interfere with which of the following cellular processes or enzymes?. .  \n Here are the Options: \nA:DNA helicase\nB:Ribosomal assembly\nC:Mitochondrial ATP synthesis\nD:Glucuronosyltransferase\nE:Topoisomerase II activity\nF:Lipid synthesis\nG:RNA polymerase activity\nH:Cell wall synthesis\nI:Proteasomal degradation\nJ:Phospholipase function. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"H",
+        "Context":null,
+        "Correct Answer":"B",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_pro_health",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: A 16-year-old boy is admitted to the emergency department because of a knife wound to the left side of his chest. An x-ray of the chest shows an air-fluid level in the left side of the chest, partial collapse of the left lung, and elevation of the stomach bubble. The mediastinum is in the midline. Which of the following is the most likely diagnosis?. .  \n Here are the Options: \nA:Rib fracture\nB:Hemopneumothorax, not under tension\nC:Flail chest\nD:Pneumothorax, not under tension\nE:Cardiac tamponade\nF:Tension pneumothorax\nG:Pulmonary contusion\nH:Tension hemopneumothorax\nI:Hemothorax, not under tension\nJ:Pleural effusion. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"F",
+        "Context":null,
+        "Correct Answer":"B",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_pro_health",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: A 16-year-old boy is admitted to the emergency department because of a knife wound to the left side of his chest. An x-ray of the chest shows an air-fluid level in the left side of the chest, partial collapse of the left lung, and elevation of the stomach bubble. The mediastinum is in the midline. Which of the following is the most likely diagnosis?. .  \n Here are the Options: \nA:Rib fracture\nB:Hemopneumothorax, not under tension\nC:Flail chest\nD:Pneumothorax, not under tension\nE:Cardiac tamponade\nF:Tension pneumothorax\nG:Pulmonary contusion\nH:Tension hemopneumothorax\nI:Hemothorax, not under tension\nJ:Pleural effusion. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"F",
+        "Context":null,
+        "Correct Answer":"B",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_pro_health",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: A 57-year-old man comes to the emergency department because of cramping in his hands and feet and numbness and tingling around his lips and in his fingers; these symptoms occurred intermittently for 6 months but have been progressively severe during the past 2 weeks. He also has had a 13-kg (30-lb) weight loss and bulky, foul-smelling stools that do not flush easily. He has a 10-year history of drinking 8 to 10 beers daily. He has been hospitalized twice for severe abdominal pain 4 and 6 years ago. His pulse is 80\/min, and blood pressure is 105\/65 mm Hg. He appears cachectic and chronically ill. The abdomen is nontender. Deep tendon reflexes are 4+ bilaterally. Chvostek and Trousseau signs are present. His serum calcium concentration is 6.5 mg\/dL. Which of the following is the most likely diagnosis?. .  \n Here are the Options: \nA:Hypercalcemia\nB:Hypokalemia\nC:Osteomalacia\nD:Chronic Pancreatitis\nE:Vitamin D deficiency\nF:Hyperparathyroidism\nG:Alcohol Withdrawal Syndrome\nH:Pernicious Anemia. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"F",
+        "Context":null,
+        "Correct Answer":"E",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_pro_health",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: A 72-year-old man comes to the physician because of a 7-month history of leg weakness and dry eyes and mouth. He also has had a 10.4-kg (23-lb) weight loss over the past 4 months despite no change in appetite. He has smoked one and a half packs of cigarettes daily for 50 years. He drinks 4 oz of alcohol daily. He has peptic ulcer disease and emphysema. Medications include cimetidine, theophylline, and low-dose prednisone. Examination shows mild ptosis. He has a barrelshaped chest. Breath sounds are distant. There is moderate weakness of proximal muscles of the lower extremities. Reflexes are absent. He has difficulty rising from a chair. Sensory examination shows no abnormalities. An x-ray shows a hyperinflated chest and a 3 x 4-cm mass in the right hilum. His neurologic findings are most likely due to a lesion involving which of the following?. .  \n Here are the Options: \nA:Presynaptic neuromuscular junction\nB:Spinal cord\nC:Muscle membrane\nD:Central nervous system\nE:Parasympathetic nervous system\nF:Motor cortex\nG:Postsynaptic neuromuscular junction\nH:Peripheral nerve\nI:Sympathetic nervous system\nJ:Sensory nerve. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"H",
+        "Context":null,
+        "Correct Answer":"A",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_pro_health",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: A 72-year-old man comes to the physician because of a 7-month history of leg weakness and dry eyes and mouth. He also has had a 10.4-kg (23-lb) weight loss over the past 4 months despite no change in appetite. He has smoked one and a half packs of cigarettes daily for 50 years. He drinks 4 oz of alcohol daily. He has peptic ulcer disease and emphysema. Medications include cimetidine, theophylline, and low-dose prednisone. Examination shows mild ptosis. He has a barrelshaped chest. Breath sounds are distant. There is moderate weakness of proximal muscles of the lower extremities. Reflexes are absent. He has difficulty rising from a chair. Sensory examination shows no abnormalities. An x-ray shows a hyperinflated chest and a 3 x 4-cm mass in the right hilum. His neurologic findings are most likely due to a lesion involving which of the following?. .  \n Here are the Options: \nA:Presynaptic neuromuscular junction\nB:Spinal cord\nC:Muscle membrane\nD:Central nervous system\nE:Parasympathetic nervous system\nF:Motor cortex\nG:Postsynaptic neuromuscular junction\nH:Peripheral nerve\nI:Sympathetic nervous system\nJ:Sensory nerve. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"H",
+        "Context":null,
+        "Correct Answer":"A",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_pro_health",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: A 4-year-old boy is brought for a follow-up examination. He has a history of chronic recurrent otitis media and recently completed a 10-day course of antibiotics. His vital signs are within normal limits. Examination shows clear ear canals and intact tympanic membranes; a brown, irregular mass is visualized behind the tympanic membrane. Which of the following is the most likely explanation for these findings?. .  \n Here are the Options: \nA:Epithelial tissue proliferation\nB:Lingual papillae loss\nC:Middle ear effusion\nD:Midface hypoplasia. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"A",
+        "Context":null,
+        "Correct Answer":"A",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_pro_health",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: What proportion of vegans is likely to be deficient in vitamin B12?\n. .  \n Here are the Options: \nA:66%\nB:50%\nC:3%\nD:85%\nE:10%\nF:75%\nG:15%\nH:20%\nI:5%\nJ:32%. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"E",
+        "Context":null,
+        "Correct Answer":"J",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_pro_health",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Which of the following is a function of biotin?\n. .  \n Here are the Options: \nA:Oxidation of glucose to carbon dioxide and water\nB:Conversion of pyruvate to lactate\nC:Synthesis of methionine from homocysteine\nD:Synthesis of purine nucleotides\nE:Decarboxylation of amino acids to form amine neurotransmitters\nF:Synthesis of fatty acids from acetyl-CoA\nG:Conversion of phenylalanine to tyrosine\nH:Conversion of glucose to glycogen\nI:Carboxylation of pyruvate to oxaloacetate\nJ:Synthesis of methylene tetrahydrofolate. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"I",
+        "Context":null,
+        "Correct Answer":"I",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_pro_health",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Which of the following is a function of biotin?\n. .  \n Here are the Options: \nA:Oxidation of glucose to carbon dioxide and water\nB:Conversion of pyruvate to lactate\nC:Synthesis of methionine from homocysteine\nD:Synthesis of purine nucleotides\nE:Decarboxylation of amino acids to form amine neurotransmitters\nF:Synthesis of fatty acids from acetyl-CoA\nG:Conversion of phenylalanine to tyrosine\nH:Conversion of glucose to glycogen\nI:Carboxylation of pyruvate to oxaloacetate\nJ:Synthesis of methylene tetrahydrofolate. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"I",
+        "Context":null,
+        "Correct Answer":"I",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_pro_health",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Which of the following statements about protein structure is correct?\n. .  \n Here are the Options: \nA:Cross-links formed by reduction of -SH groups of cysteine to form disulphide bridges render the amino acid unavailable to digestion.\nB:Cross-links between the &epsiv;-amino group of lysine and the carboxyl group of aspartate render the amino acid(s) unavailable for digestion.\nC:All proteins have the same secondary structure\nD:The arrangement of amino acids in a protein is its secondary structure\nE:The sequence of amino acids in a protein is its quaternary structure\nF:All proteins have the same tertiary structure\nG:Cross-links between the &epsiv;-amino group of lysine and the carboxyl group of glutamate render the amino acid(s) unavailable for digestion.\nH:All proteins have the same primary structure\nI:Cross-links formed by oxidation of -SH groups of cysteine to form disulphide bridges render the amino acid unavailable to digestion.\nJ:The sequence of amino acids in a protein is its tertiary structure. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"A",
+        "Context":null,
+        "Correct Answer":"G",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_pro_health",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Which of the following is not a reason for increased risk of vitamin or mineral deficiencies among older people in high income countries?\n. .  \n Here are the Options: \nA:Low income so decreased ability to purchase nutrient-rich foods\nB:Decreased mobility and little time spend outdoors in the sunshine\nC:Decreased intrinsic factor in the stomach\nD:High nutrient requirements for tissue turnover. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"B",
+        "Context":null,
+        "Correct Answer":"D",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_pro_health",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Which of the following is not a reason for increased risk of vitamin or mineral deficiencies among older people in high income countries?\n. .  \n Here are the Options: \nA:Regular physical activity and outdoor exposure\nB:High nutrient requirements for tissue turnover\nC:Increased intrinsic factor in the stomach\nD:Low income so decreased ability to purchase nutrient-rich foods\nE:Decreased intrinsic factor in the stomach\nF:Decreased nutrient requirements due to aging\nG:Decreased mobility and little time spend outdoors in the sunshine\nH:Increased absorption of vitamins and minerals due to medication. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"F",
+        "Context":null,
+        "Correct Answer":"B",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_pro_health",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Which of the following is not a beneficial effect of exercise in people with diabetes:\n. .  \n Here are the Options: \nA:Decreased muscle mass\nB:Impaired digestion\nC:Worsening of vision\nD:Increase in blood sugar levels\nE:Reduction of bone density\nF:Increase in body fat percentage\nG:Hypoglycaemia. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"D",
+        "Context":null,
+        "Correct Answer":"G",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_pro_health",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Which of the following is not a non-coding RNA?\n. .  \n Here are the Options: \nA:lncRNA\nB:piRNA\nC:rRNA\nD:snRNA\nE:tRNA\nF:miRNA\nG:siRNA\nH:Ribozyme\nI:mRNA\nJ:gRNA. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"H",
+        "Context":null,
+        "Correct Answer":"I",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_pro_health",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: The critical pH below which demineralisation of tooth enamel occurs is usually around:\n. .  \n Here are the Options: \nA:6\nB:5.2\nC:6.2\nD:5.5\nE:4.8\nF:4.5\nG:6.5\nH:5.7\nI:5\nJ:7. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"B",
+        "Context":null,
+        "Correct Answer":"D",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_pro_health",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Vitamin D deficiency can often be found as a single nutrient deficiency, that is, in an otherwise well-nourished person. The main reason this can happen is because:\n. .  \n Here are the Options: \nA:Vitamin D is not essential for the body, therefore, its deficiency doesn't affect the overall nourishment.\nB:Vitamin D is a rare nutrient and can only be found in a few expensive food items.\nC:Vitamin D absorption is not affected by the presence of other nutrients in the body.\nD:The content of vitamin D in foods depends on the soil in which the food was grown so is not related to wealth or age.\nE:Overconsumption of Vitamin D can lead to its deficiency.\nF:Diets containing sufficient other nutrients to promote growth can increase the requirement of vitamin D so that it becomes limiting.\nG:Most vitamin D in the body does not come from food so access to food is not an important determinant of vitamin D status.\nH:Foods containing large amounts of vitamin D are eaten by both poor and wealthy people according to various cultural reasons.\nI:Vitamin D is present in all types of food, therefore, its deficiency is usually accompanied by other nutrient deficiencies.\nJ:Vitamin D is only produced in the body during certain times of the year.. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"F",
+        "Context":null,
+        "Correct Answer":"G",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_pro_health",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Water transport can occur from the lumen of the intestine to the blood stream, or from the blood stream to the intestinal lumen. Which single statement about this phenomenon, below, is actually correct?\n. .  \n Here are the Options: \nA:Dietary intake of water is always greater than water movement in the small intestine\nB:Water flows into the gut from the mucosa, during digestion of starch and protein, in order to reduce luminal osmolality\nC:Water flows out of the gut from the mucosa, during digestion of starch and protein, in order to increase luminal osmolality\nD:Water is primarily transported by movement within the cells lining the gut (enterocytes)\nE:Water is mostly absorbed by movement between the cells lining the gut (enterocytes) via tight junctions\nF:Water transport from the blood stream to the intestinal lumen only occurs during digestion\nG:Water transport from the intestine to the blood stream does not occur during digestion\nH:A \"flip-flop\" mechanism efficiently transports water directly across the enterocyte membrane\nI:Water is mostly absorbed by the cells lining the gut (enterocytes) via osmosis\nJ:Water movement in the small intestine is always lesser than dietary intake of water. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"I",
+        "Context":null,
+        "Correct Answer":"B",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_pro_health",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Which of the following rules regarding the interconversion of fuels are central to the integration of metabolic pathways?\n. .  \n Here are the Options: \nA:Fatty acids can be made from and converted to carbohydrates and amino acids\nB:Carbohydrates can be made from and converted to amino acids and fatty acids\nC:Fatty acids can be made from but not converted to carbohydrates and amino acids\nD:Amino acids can be made from and converted to fatty acids. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"B",
+        "Context":null,
+        "Correct Answer":"C",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_pro_health",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Which of these factors increases the risk for lung cancer?\n. .  \n Here are the Options: \nA:Saturated fat\nB:High fiber diet\nC:Eating citrus fruits\nD:Alcohol\nE:Lack of physical activity\nF:Low protein intake\nG:Vitamin D deficiency\nH:Obesity\nI:High dose ß-carotene supplements\nJ:Drinking green tea. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"I",
+        "Context":null,
+        "Correct Answer":"I",
+        "Score":1
+    }
+]

@@ -1,0 +1,402 @@
+[
+    {
+        "Task":"mmlu_clinical_knowledge",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: With an increasing number of sprints the:. .  \n Here are the Options: \nA:anaerobic contribution progressively increases.\nB:pH of the muscle falls below 6.0.\nC:blood glucose concentration falls below 3 mmol\/L.\nD:relative contribution of aerobic metabolism increases.. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"A",
+        "Context":null,
+        "Correct Answer":"D",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_clinical_knowledge",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Which of the following is true in diplopia?. .  \n Here are the Options: \nA:Diplopia can never occur if one eye is covered\nB:The outer image is always the false image\nC:A fourth nerve palsy occurs when the patient looks upwards\nD:A sixth nerve palsy causes a divergent squint. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"D",
+        "Context":null,
+        "Correct Answer":"B",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_clinical_knowledge",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Sodium bicarbonate ingestion improves middle distance running performance by:. .  \n Here are the Options: \nA:elevating the pH and buffering capacity of the extracellular fluid allowing a faster efflux of hydrogen ions from muscle.\nB:reducing the pH and buffering capacity of the extracellular fluid allowing a faster efflux of hydrogen ions from muscle.\nC:elevating the pH and buffering capacity of the extracellular fluid allowing a faster influx of hydrogen ions into muscle.\nD:elevating the pre-exercise muscle pH.. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"A",
+        "Context":null,
+        "Correct Answer":"A",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_clinical_knowledge",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Codons are composed of:. .  \n Here are the Options: \nA:triplet sequences of nucleotide bases in mRNA or DNA .\nB:quadruplet sequences of nucleotide bases in mRNA or DNA.\nC:triplet sequences of amino acids in polypeptide chains.\nD:triplet sequences of deoxyribose sugars in DNA.. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"A",
+        "Context":null,
+        "Correct Answer":"A",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_clinical_knowledge",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Fatty acids are transported into the mitochondria bound to:. .  \n Here are the Options: \nA:thiokinase.\nB:coenzyme A (CoA).\nC:acetyl-CoA.\nD:carnitine.. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"D",
+        "Context":null,
+        "Correct Answer":"D",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_clinical_knowledge",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Which of the answers below best indicates the compatible blood types that can be given to a person with a blood group B (rhesus negative)?. .  \n Here are the Options: \nA:Blood type AB (rhesus negative), blood type B, and blood type O (rhesus negative).\nB:Blood type B (rhesus positive) and blood type O (rhesus positive).\nC:Blood type B (rhesus negative) and blood type O (rhesus negative).\nD:Blood type B (rhesus negative) only.. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"C",
+        "Context":null,
+        "Correct Answer":"C",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_clinical_knowledge",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Which of the following is true of a lower motor neurone lesion in the arm?. .  \n Here are the Options: \nA:It leads to increased tone in the arm (hypertonia)\nB:Fasciculations are never seen\nC:The reflexes are brisk\nD:An ulna nerve palsy is an example of a lower motor neurone lesion. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"D",
+        "Context":null,
+        "Correct Answer":"D",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_clinical_knowledge",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Which of the following statements is false?. .  \n Here are the Options: \nA:Ammonia is produced in repeated high intensity exercise.\nB:Muscle lactate accumulation does not begin until at least 5 seconds of intermittent muscle contractions have taken place.\nC:Muscle phosphocreatine depletion begins in the first few seconds of high intensity exercise.\nD:With an increasing number of repeated sprints the rate of accumulation of lactate in muscle declines.. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"D",
+        "Context":null,
+        "Correct Answer":"B",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_clinical_knowledge",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Glycogen breakdown in muscle initially results in the formation of:. .  \n Here are the Options: \nA:glucose.\nB:glucose-1-phosphate.\nC:glucose-6-phosphate.\nD:glucose-1,6-diphosphate.. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"C",
+        "Context":null,
+        "Correct Answer":"B",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_clinical_knowledge",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: The two principal contractile proteins found in skeletal muscle are:. .  \n Here are the Options: \nA:actin and troponin.\nB:actin and myosin.\nC:troponin and tropomyosin.\nD:myosin and tropomyosin.. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"B",
+        "Context":null,
+        "Correct Answer":"B",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_clinical_knowledge",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Which one of the following represents a IIIrd cranial nerve palsy and is a neurosurgical emergency?. .  \n Here are the Options: \nA:Unilateral constricted pupil.\nB:Bilateral constricted pupils.\nC:Unilateral fixed dilated pupil.\nD:Oval shaped pupils.. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"C",
+        "Context":null,
+        "Correct Answer":"C",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_clinical_knowledge",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Which of the following is true about a thyroid swelling?. .  \n Here are the Options: \nA:It always elevates on swallowing\nB:Lymph node enlargement is a good prognostic sign\nC:An ultrasound of the swelling is the best test to determine whether the nodule is actively secreting hormone\nD:A functioning nodule on isotope scanning is unlikely to be due to cancer. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"D",
+        "Context":null,
+        "Correct Answer":"D",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_clinical_knowledge",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Which of the following is true of hepatomegaly?. .  \n Here are the Options: \nA:Emphysema is a cause\nB:The liver enlarges downwards from the left hypochondrium\nC:The presence of jaundice, spider naevi and purpura suggest alcohol as a cause\nD:The liver is usually resonant to percussion. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"C",
+        "Context":null,
+        "Correct Answer":"C",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_clinical_knowledge",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Which of the following is true regarding reflexes?. .  \n Here are the Options: \nA:A positive babinski reflex is the same as a normal flexor response in the assessment of the plantar reflex\nB:An extensor plantar response indicates a lower motor neurone lesion\nC:The root value of the ankle reflex is S1\nD:The root value of the knee reflex is L1, L2. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"B",
+        "Context":null,
+        "Correct Answer":"C",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_clinical_knowledge",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Which of the following is true of facial nerve palsy?. .  \n Here are the Options: \nA:Bells palsy is another term for an upper motor neurone lesion\nB:Ramsay Hunt Syndrome is an upper motor neurone lesion secondary to a Herpes Zoster infection\nC:An inability to close the eyelid on the paralysed side indicates a lower motor neurone lesion\nD:In Bell's Palsy the sense of taste is never affected. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"C",
+        "Context":null,
+        "Correct Answer":"C",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_clinical_knowledge",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: What is a colles fracture?. .  \n Here are the Options: \nA:Hand fracture.\nB:Elbow fracture.\nC:Finger fracture.\nD:Fracture of the radius and ulna at the wrist.. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"D",
+        "Context":null,
+        "Correct Answer":"D",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_clinical_knowledge",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: If a transfusion reaction is suspected, you should:. .  \n Here are the Options: \nA:turn off the transfusion, inform medical staff immediately, and follow transfusion policy advice on dealing with acute transfusion reactions.\nB:leave the transfusion running and contact the medical staff immediately.\nC:disconnect and dispose of the blood bag immediately.\nD:leave the transfusion running and record a set of observations on the patient.. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"A",
+        "Context":null,
+        "Correct Answer":"A",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_clinical_knowledge",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Once a prescribed unit of blood product has been obtained from the blood bank and is out of refrigeration, the transfusion should commence within what period of time before it starts to deteriorate (as of 2020 medical knowledge)?. .  \n Here are the Options: \nA:30 minutes.\nB:90 minutes.\nC:4 hours.\nD:12 hours.. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"C",
+        "Context":null,
+        "Correct Answer":"A",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_clinical_knowledge",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Which of the following statements is true about informal carers (as of 2020)?. .  \n Here are the Options: \nA:50% of over 65s are providing informal care.\nB:One in six over 65s is providing some form of informal care.\nC:Informal carers should not be included in discharge planning.\nD:The majority of informal carers are fit and active.. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"B",
+        "Context":null,
+        "Correct Answer":"B",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_clinical_knowledge",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Which of the following processes is not used to modify protein structure after translation has occurred?. .  \n Here are the Options: \nA:Lipidation.\nB:Attachment of more amino acids via peptide bonds.\nC:Glycosylation.\nD:Phosphorylation.. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"B",
+        "Context":null,
+        "Correct Answer":"B",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_clinical_knowledge",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Why would you need to carry out a bladder washout for a patient at home?. .  \n Here are the Options: \nA:When their urine is clear.\nB:When the catheter is blocked.\nC:When the catheter is bypassing.\nD:When the catheter is dirty.. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"C",
+        "Context":null,
+        "Correct Answer":"B",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_clinical_knowledge",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: A 14-16 gauge needle is most likely to be used for:. .  \n Here are the Options: \nA:children.\nB:elderly patients.\nC:inserting in the back of the hand.\nD:trauma or burns patients.. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"C",
+        "Context":null,
+        "Correct Answer":"D",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_clinical_knowledge",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Which of these features suggest that a crackling sound is more likely due to a pleural friction rub than crackles?. .  \n Here are the Options: \nA:More prominent in expiration\nB:Alters with coughing\nC:No pain over the area\nD:Clubbing. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"B",
+        "Context":null,
+        "Correct Answer":"A",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_clinical_knowledge",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: In games like soccer the blood lactate concentration:. .  \n Here are the Options: \nA:rarely increases above 3 mM.\nB:is usually lower at the end of the game than at the end of the first half.\nC:is usually higher at the end of the game than at the end of the first half.\nD:increases throughout the course of the game as the players become more fatigued.. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"C",
+        "Context":null,
+        "Correct Answer":"B",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_clinical_knowledge",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Lactate and hydrogen ions leave the muscle:. .  \n Here are the Options: \nA:via a cotransport mechanism with carnosine.\nB:via an active transport mechanism.\nC:via a protein transporter molecule.\nD:by simple diffusion.. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"A",
+        "Context":null,
+        "Correct Answer":"C",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_clinical_knowledge",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Which of the following is true of the spine?. .  \n Here are the Options: \nA:Back pain is an uncommon complaint\nB:Schober's test is designed to quantify the flexion of the lumbar spine\nC:Ankylosing spondylitis is a cause of hypermobility of the spine\nD:Pregnancy is a cause of loss of lordosis of the lumbar spine. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"B",
+        "Context":null,
+        "Correct Answer":"B",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_clinical_knowledge",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Which of the following is true of psoriatic arthropathy?. .  \n Here are the Options: \nA:The absence of plaques of psoriasis excludes the diagnosis\nB:The diagnosis can be confirmed by a blood marker\nC:Tophi can sometimes be seen over affected joints\nD:Nail pitting may give a clue to the diagnosis. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"D",
+        "Context":null,
+        "Correct Answer":"D",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_clinical_knowledge",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Which of the following is true of Graves Disease of the thyroid?. .  \n Here are the Options: \nA:It is a cause of ophthalmoplegia\nB:It causes a large multi-nodular goitre\nC:It is commoner in males than females\nD:In the past, Grave's disease sometimes caused 'Derbyshire Neck'. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"A",
+        "Context":null,
+        "Correct Answer":"A",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_clinical_knowledge",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Which of the following is true of calcium metabolism?. .  \n Here are the Options: \nA:Calcitonin causes a rise in plasma calcium\nB:Primary hyperparathyroidism is usually asymptomatic\nC:Vitamin D is secreted by the parathyroid glands\nD:Oliguria is a symptom of hypercalcaemia. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"D",
+        "Context":null,
+        "Correct Answer":"B",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_clinical_knowledge",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Kinase reactions:. .  \n Here are the Options: \nA:inhibit ATP breakdown.\nB:involve the addition or removal of a phosphate group.\nC:involve the addition or removal of a ketone group.\nD:involve the addition or removal of an amino acid to a polypeptide chain.. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"B",
+        "Context":null,
+        "Correct Answer":"B",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_clinical_knowledge",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: The normal respiratory rate for an adult male is:. .  \n Here are the Options: \nA:10-12 breaths per minute.\nB:8-10 breaths per minute.\nC:20-22 breaths per minute.\nD:14-16 breaths per minute.. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"D",
+        "Context":null,
+        "Correct Answer":"D",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_clinical_knowledge",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Collagen fibres:. .  \n Here are the Options: \nA:are re-established in the first five days of wound healing.\nB:provide a bridge across the surface of a wound.\nC:take some time to re-establish.\nD:are not needed if a wound is healing by primary intention.. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"C",
+        "Context":null,
+        "Correct Answer":"C",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_clinical_knowledge",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Which of the following releases most energy when completely oxidised in the body?. .  \n Here are the Options: \nA:One gram of glucose\nB:One gram of palmitic acid\nC:One gram of leucine\nD:One gram of alcohol. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"A",
+        "Context":null,
+        "Correct Answer":"B",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_clinical_knowledge",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Embedded in the inner membrane of the mitochondrion are:. .  \n Here are the Options: \nA:the enzymes of the tricarboxylic acid cycle (Krebs' cycle).\nB:the components of the electron transport chain.\nC:glycogen molecules.\nD:triacylglycerol molecules.. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"B",
+        "Context":null,
+        "Correct Answer":"B",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_clinical_knowledge",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: If the mean rate of oxygen consumption of a male athlete during a training session is 2 l\/min, then his rate of energy expenditure is approximately:. .  \n Here are the Options: \nA:400 kJ\/min.\nB:200 kJ\/min.\nC:80 kJ\/min.\nD:40 kJ\/min.. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"A",
+        "Context":null,
+        "Correct Answer":"D",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_clinical_knowledge",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: A normal heart rate for an adult at rest is:. .  \n Here are the Options: \nA:60-80 bpm.\nB:60-100 bpm.\nC:60-90 bpm.\nD:60-110 bpm.. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"A",
+        "Context":null,
+        "Correct Answer":"B",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_clinical_knowledge",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Which of the following statements is false?. .  \n Here are the Options: \nA:Phosphofructokinase is the rate limiting enzyme in glycolysis.\nB:Phosphorylase activity is higher in Type II fibres than in Type I fibres.\nC:Endurance training increases the amount of TCA cycle enzymes in muscle.\nD:Oxygen is consumed in the TCA cycle.. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"B",
+        "Context":null,
+        "Correct Answer":"D",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_clinical_knowledge",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Which of the following is true in ulna nerve palsy?. .  \n Here are the Options: \nA:The ulna nerve can be affected by a fracture of the spiral groove of the humerus\nB:It gives rise to a positive phalen's sign\nC:It leads to loss of sensation over the medial half of the hand and medial one and a half digits on both palmar and dorsal aspects of the hand\nD:It supplies the biceps muscles. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"A",
+        "Context":null,
+        "Correct Answer":"C",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_clinical_knowledge",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: How much toothpaste is recommended for cleaning teeth?. .  \n Here are the Options: \nA:A smear.\nB:A pea-sized amount.\nC:The length of the toothbrush.\nD:Half an inch.. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"B",
+        "Context":null,
+        "Correct Answer":"B",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_clinical_knowledge",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Which of the following is true about Cushing's Syndrome?. .  \n Here are the Options: \nA:It is due to a deficiency of cortisol hormone\nB:Enlarged extremities are commonly seen\nC:Osteoporosis is not a feature\nD:A moon face and a buffalo hump are characteristic of the disease. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"D",
+        "Context":null,
+        "Correct Answer":"D",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_clinical_knowledge",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: The main factors determining success in sport are:. .  \n Here are the Options: \nA:a high energy diet and large appetite.\nB:high intelligence and motivation to succeed.\nC:a good coach and the motivation to succeed.\nD:innate ability and the capacity to respond to the training stimulus.. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"D",
+        "Context":null,
+        "Correct Answer":"D",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_clinical_knowledge",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: In a double stranded molecule of DNA, the ratio of purines : pyrimidines is:. .  \n Here are the Options: \nA:variable.\nB:determined by the base sequence in RNA.\nC:genetically determined.\nD:always 1:1.. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"D",
+        "Context":null,
+        "Correct Answer":"D",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_clinical_knowledge",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Performance enhancing synthetic steroids are based on the structure of the hormone:. .  \n Here are the Options: \nA:testosterone.\nB:cortisol.\nC:progesterone.\nD:aldosterone.. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"A",
+        "Context":null,
+        "Correct Answer":"A",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_clinical_knowledge",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Glycogen breakdown in exercising muscle is activated by:. .  \n Here are the Options: \nA:insulin.\nB:cortisol.\nC:increased pH.\nD:none of the above.. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"D",
+        "Context":null,
+        "Correct Answer":"D",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_clinical_knowledge",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Most of the free fatty acids are transported in the blood:. .  \n Here are the Options: \nA:inside the red blood cells.\nB:as lipoproteins.\nC:combined with glucose.\nD:bound to albumin.. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"D",
+        "Context":null,
+        "Correct Answer":"D",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_clinical_knowledge",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: How often should a cannula be flushed?. .  \n Here are the Options: \nA:Every 4 hours.\nB:Every 8 hours.\nC:Every 12 hours.\nD:Every 16 hours.. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"A",
+        "Context":null,
+        "Correct Answer":"C",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_clinical_knowledge",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: The activity of creatine kinase is:. .  \n Here are the Options: \nA:increased when intracellular ADP rises.\nB:increased when muscle pH falls below 6.9.\nC:always lower in Type II fibres than Type I fibres.\nD:increased after a period of endurance training.. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"A",
+        "Context":null,
+        "Correct Answer":"A",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_clinical_knowledge",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: The smallest increments on a mercury and aneroid sphygmomanometer measure are:. .  \n Here are the Options: \nA:10 mmHg.\nB:4 mmHg.\nC:2 mmHg.\nD:1 mmHg.. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"D",
+        "Context":null,
+        "Correct Answer":"C",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_clinical_knowledge",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Which of the following is not an abnormal breathing pattern seen in head injury and altered conscious level?. .  \n Here are the Options: \nA:Cheyne-Stokes respiration.\nB:Anaerobic respiration.\nC:Hyperventilation.\nD:Ataxic breathing.. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"B",
+        "Context":null,
+        "Correct Answer":"B",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_clinical_knowledge",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: During CPR chest compressions and ventilations should be delivered in a ratio of:. .  \n Here are the Options: \nA:2:25\nB:15:02\nC:1:05\nD:30:02:00. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"B",
+        "Context":null,
+        "Correct Answer":"D",
+        "Score":0
+    }
+]

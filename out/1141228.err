@@ -1,0 +1,7 @@
+/home/kunet.ae/ku5001069/.conda/envs/deepeval/lib/python3.10/site-packages/deepeval/__init__.py:42: UserWarning: You are using deepeval version 0.21.65, however version 0.21.66 is available. You should consider upgrading via the "pip install --upgrade deepeval" command.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:10<00:32, 10.86s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:22<00:22, 11.09s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:35<00:12, 12.10s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:39<00:00,  8.92s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:39<00:00,  9.87s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Batch Processing medqa (batch_size=4):   0%|          | 0/317 [00:00<?, ?it/s]A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Batch Processing medqa (batch_size=4):   0%|          | 1/317 [00:12<1:03:14, 12.01s/it]A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+slurmstepd: error: *** JOB 1141228 ON gpu-11-3 CANCELLED AT 2024-07-17T22:12:46 DUE TO TIME LIMIT ***

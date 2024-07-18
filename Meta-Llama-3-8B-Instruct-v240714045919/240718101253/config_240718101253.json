@@ -1,0 +1,8 @@
+{
+    "number_of_rows_to_consider": 50,
+    "batch_size": null,
+    "time": 1168.135432958603,
+    "tasks": [
+        "mmlu_pro_health"
+    ]
+}

@@ -1,0 +1,381 @@
+[
+    {
+        "Task":"medmcqa",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Concentration of tropicamide:. .  \n Here are the Options: \nA:0.01\nB:0.02\nC:0.03\nD:0.04. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"A",
+        "Context":null,
+        "Correct Answer":"A",
+        "Score":1
+    },
+    {
+        "Task":"medmcqa",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Which of the following statements is true regarding H I N1 Influenza?. .  \n Here are the Options: \nA:Pregnant woman with sore throat can be staed immediately on oseltamivir without diagnostic testing under category B\nB:People on long-term steroids cannot receive Os-eltam ivir\nC:Category B concerns with low risk cases\nD:Category B patients have to undergo immediate testing. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"A",
+        "Context":null,
+        "Correct Answer":"A",
+        "Score":1
+    },
+    {
+        "Task":"medmcqa",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Which of the following are not a branch of external carotid Aery in Kiesselbach's plexus.. .  \n Here are the Options: \nA:Sphenopalatine aery\nB:Anterior ethmoidal aery\nC:Greater palatine aery\nD:Septal branch of superior labial aery. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"B",
+        "Context":null,
+        "Correct Answer":"B",
+        "Score":1
+    },
+    {
+        "Task":"medmcqa",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Diagnosis of the following ECG-. .  \n Here are the Options: \nA:Ventricular bigeminy\nB:Electrical alternans\nC:P pulmonale\nD:Left ventricular failure. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"A",
+        "Context":null,
+        "Correct Answer":"B",
+        "Score":0
+    },
+    {
+        "Task":"medmcqa",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: A blue new born presents with cyanosis. The X–ray chest reveal oligaemic lung field and normal sized heart. Most likely diagnosis is –. .  \n Here are the Options: \nA:Ebstein's anomaly\nB:Pulmonary atresia\nC:Transposition of great arteries\nD:Tetralogy of fallot. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"D",
+        "Context":null,
+        "Correct Answer":"B",
+        "Score":0
+    },
+    {
+        "Task":"medqa",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: A 39-year-old man presents to the emergency department because of progressively worsening chest pain and nausea that started at a local bar 30 minutes prior. The pain radiates to the epigastric area. He has a 5-year history of untreated hypertension. He has smoked 1 pack of cigarettes daily for the past 5 years and started abusing cocaine 2 weeks before his emergency room visit. The patient is diaphoretic and in marked distress. What should be the first step in management?. .  \n Here are the Options: \nA:Diltiazem\nB:Labetalol\nC:Propranolol\nD:Reassurance and continuous monitoring. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"D",
+        "Context":null,
+        "Correct Answer":"D",
+        "Score":1
+    },
+    {
+        "Task":"medqa",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: A 68-year-old male comes to the physician for evaluation of right flank pain. He has a history of diabetes and peripheral artery disease. His blood pressure is 160\/90 mm Hg. Physical examination shows abdominal tenderness and right flank tenderness. An ultrasound shows dilation of the right ureter and renal pelvis. Which of the following is the most likely underlying cause of this patient's condition?. .  \n Here are the Options: \nA:Renal artery stenosis\nB:Benign prostatic hyperplasia\nC:Common iliac artery aneurysm\nD:Urethral stricture. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"A",
+        "Context":null,
+        "Correct Answer":"C",
+        "Score":0
+    },
+    {
+        "Task":"medqa",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: A 65-year-old man is brought to the emergency department 30 minutes after the onset of acute chest pain. He has hypertension and asthma. Current medications include atorvastatin, lisinopril, and an albuterol inhaler. He appears pale and diaphoretic. His pulse is 114\/min and blood pressure is 130\/88 mm Hg. An ECG shows ST-segment depressions in leads II, III, and aVF. Laboratory studies show an increased serum troponin T concentration. The patient is treated for acute coronary syndrome and undergoes percutaneous transluminal coronary angioplasty. At the time of discharge, echocardiography shows a left ventricular ejection fraction of 58%. In addition to aspirin, which of the following drugs should be added to this patient's medication regimen?. .  \n Here are the Options: \nA:Nifedipine\nB:Enoxaparin\nC:Clopidogrel\nD:Spironolactone. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"C",
+        "Context":null,
+        "Correct Answer":"C",
+        "Score":1
+    },
+    {
+        "Task":"medqa",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: A 37-year-old-woman presents to her primary care physician requesting a new form of birth control. She has been utilizing oral contraceptive pills (OCPs) for the past 8 years, but asks to switch to an intrauterine device (IUD). Her vital signs are: blood pressure 118\/78 mm Hg, pulse 73\/min and respiratory rate 16\/min. She is afebrile. Physical examination is within normal limits. Which of the following past medical history statements would make copper IUD placement contraindicated in this patient?. .  \n Here are the Options: \nA:A history of stroke or venous thromboembolism\nB:Active or recurrent pelvic inflammatory disease (PID)\nC:Past medical history of breast cancer\nD:Known liver neoplasm. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"A",
+        "Context":null,
+        "Correct Answer":"B",
+        "Score":0
+    },
+    {
+        "Task":"medqa",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: A 23-year-old woman comes to the physician because she is embarrassed about the appearance of her nails. She has no history of serious illness and takes no medications. She appears well. A photograph of the nails is shown. Which of the following additional findings is most likely in this patient?. .  \n Here are the Options: \nA:Silvery plaques on extensor surfaces\nB:Flesh-colored papules in the lumbosacral region\nC:Erosions of the dental enamel\nD:Holosystolic murmur at the left lower sternal border. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"A",
+        "Context":null,
+        "Correct Answer":"A",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_anatomy",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: A patient suffers a broken neck with damage to the spinal cord at the level of the sixth cervical vertebra.. .  \n Here are the Options: \nA:They will be unable to breathe without life support.\nB:They will only be able to breathe quietly.\nC:It is impossible to predict an effect on breathing.\nD:Breathing will be unaffected.. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"A",
+        "Context":null,
+        "Correct Answer":"B",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_anatomy",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Which of the following anatomical regions of abdomen lies just distal to the sternum?. .  \n Here are the Options: \nA:Epigastric\nB:Hypochondriac\nC:Hypogastric\nD:Lumbar. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"B",
+        "Context":null,
+        "Correct Answer":"A",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_anatomy",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Which of the following best describes the human body's defense mechanism against environmental bacteria?. .  \n Here are the Options: \nA:Hair in the nose\nB:Mucous membranes\nC:Osteoblasts\nD:Saliva. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"B",
+        "Context":null,
+        "Correct Answer":"B",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_anatomy",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: The palatine processes begin to fuse at. .  \n Here are the Options: \nA:six weeks post-fertilization.\nB:eight weeks post-fertilization.\nC:ten weeks post-fertilization.\nD:twelve weeks post-fertilization.. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"B",
+        "Context":null,
+        "Correct Answer":"C",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_anatomy",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Primary motor cortex activity results in. .  \n Here are the Options: \nA:bilateral contraction of antigravity limb muscles.\nB:bilateral contraction of limb musculature.\nC:contraction of ipsilateral limb musculature.\nD:contraction of contralateral limb musculature.. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"D",
+        "Context":null,
+        "Correct Answer":"D",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_clinical_knowledge",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: With an increasing number of sprints the:. .  \n Here are the Options: \nA:anaerobic contribution progressively increases.\nB:pH of the muscle falls below 6.0.\nC:blood glucose concentration falls below 3 mmol\/L.\nD:relative contribution of aerobic metabolism increases.. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"A",
+        "Context":null,
+        "Correct Answer":"D",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_clinical_knowledge",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Which of the following is true in diplopia?. .  \n Here are the Options: \nA:Diplopia can never occur if one eye is covered\nB:The outer image is always the false image\nC:A fourth nerve palsy occurs when the patient looks upwards\nD:A sixth nerve palsy causes a divergent squint. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"B",
+        "Context":null,
+        "Correct Answer":"B",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_clinical_knowledge",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Sodium bicarbonate ingestion improves middle distance running performance by:. .  \n Here are the Options: \nA:elevating the pH and buffering capacity of the extracellular fluid allowing a faster efflux of hydrogen ions from muscle.\nB:reducing the pH and buffering capacity of the extracellular fluid allowing a faster efflux of hydrogen ions from muscle.\nC:elevating the pH and buffering capacity of the extracellular fluid allowing a faster influx of hydrogen ions into muscle.\nD:elevating the pre-exercise muscle pH.. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"A",
+        "Context":null,
+        "Correct Answer":"A",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_clinical_knowledge",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Codons are composed of:. .  \n Here are the Options: \nA:triplet sequences of nucleotide bases in mRNA or DNA .\nB:quadruplet sequences of nucleotide bases in mRNA or DNA.\nC:triplet sequences of amino acids in polypeptide chains.\nD:triplet sequences of deoxyribose sugars in DNA.. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"A",
+        "Context":null,
+        "Correct Answer":"A",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_clinical_knowledge",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Fatty acids are transported into the mitochondria bound to:. .  \n Here are the Options: \nA:thiokinase.\nB:coenzyme A (CoA).\nC:acetyl-CoA.\nD:carnitine.. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"D",
+        "Context":null,
+        "Correct Answer":"D",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_college_biology",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: In order for the Hardy-Weinberg law to operate with respect to a population of organisms, each of the following conditions must be met EXCEPT:. .  \n Here are the Options: \nA:Genes are exchanged with other populations.\nB:Population size is large.\nC:Natural selection does not take place.\nD:Matings are random.. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"A",
+        "Context":null,
+        "Correct Answer":"A",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_college_biology",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: The Barr body found within female mammalian cells' nuclei is an example of. .  \n Here are the Options: \nA:euchromatin\nB:heterochromatin\nC:a cistron\nD:pseudogenes. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"B",
+        "Context":null,
+        "Correct Answer":"B",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_college_biology",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Which of the following is NOT a source of atmospheric carbon?. .  \n Here are the Options: \nA:Respiration\nB:Photosynthesis\nC:Bacterial decomposition\nD:Combustion of fossil fuels. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"A",
+        "Context":null,
+        "Correct Answer":"B",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_college_biology",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: The concept of punctuated equilibrium refers to. .  \n Here are the Options: \nA:oscillating ecological successional stages\nB:ecological succession arrested by sudden environmental changes, e.g., fire\nC:persistent predator-prey relationships in relatively stable environments\nD:bursts of speciation followed by relatively unchanging lineages. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"D",
+        "Context":null,
+        "Correct Answer":"D",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_college_biology",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: When an influenza virus enters a cell, it immediately starts to do which of the following?. .  \n Here are the Options: \nA:Incorporate viral DNA into the host cell’s chromosome\nB:Destroy the host cell’s transcriptional machinery\nC:Replicate its genetic material and synthesize viral proteins\nD:Use a viral copy of reverse transcriptase to manufacture viral DNA. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"C",
+        "Context":null,
+        "Correct Answer":"C",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_college_medicine",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Fatty acids are transported into the mitochondria bound to:. .  \n Here are the Options: \nA:thiokinase.\nB:coenzyme A (CoA).\nC:acetyl-CoA.\nD:carnitine.. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"D",
+        "Context":null,
+        "Correct Answer":"D",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_college_medicine",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Sauna use, sometimes referred to as \"sauna bathing,\" is characterized by short-term passive exposure to extreme heat. This exposure elicits mild hyperthermia – an increase in the body's core temperature – that induces a thermoregulatory response involving neuroendocrine, cardiovascular, and cytoprotective mechanisms that work together to restore homeostasis and condition the body for future heat stressors… In recent decades, sauna bathing has emerged as a means to increase lifespan and improve overall health, based on compelling data from observational, interventional, and mechanistic studies. Of particular interest are the findings from studies of participants in the Kuopio Ischemic Heart Disease Risk Factor (KIHD) Study, an ongoing prospective population-based cohort study of health outcomes in more than 2,300 middle-aged men from eastern Finland, which identified strong links between sauna use and reduced death and disease… The KIHD findings showed that men who used the sauna two to three times per week were 27 percent less likely to die from cardiovascular-related causes than men who didn't use the sauna.[2] Furthermore, the benefits they experienced were found to be dose-dependent: Men who used the sauna roughly twice as often, about four to seven times per week, experienced roughly twice the benefits – and were 50 percent less likely to die from cardiovascular-related causes.[2] In addition, frequent sauna users were found to be 40 percent less likely to die from all causes of premature death. These findings held true even when considering age, activity levels, and lifestyle factors that might have influenced the men's health.[2]... The KIHD also revealed that frequent sauna use reduced the risk of developing dementia and Alzheimer's disease in a dose-dependent manner. Men who used the sauna two to three times per week had a 66 percent lower risk of developing dementia and a 65 percent lower risk of developing Alzheimer's disease, compared to men who used the sauna only one time per week… The health benefits associated with sauna use extended to other aspects of mental health, as well. Men participating in the KIHD study who used the sauna four to seven times per week were 77 percent less likely to develop psychotic disorders, regardless of the men's dietary habits, socioeconomic status, physical activity, and inflammatory status (as measured by C-reactive protein)…Exposure to high temperature stresses the body, eliciting a rapid, robust response. The skin and core body temperatures increase markedly, and sweating ensues. The skin heats first, rising to 40°C (104°F), and then changes in core body temperature occur, rising slowly from 37°C (98.6°F, or normal) to 38°C (100.4°F) and then rapidly increasing to 39°C (102.2°F)…  Cardiac output, a measure of the amount of work the heart performs in response to the body's need for oxygen, increases by 60 to 70 percent, while the heart rate (the number of beats per minute) increases and the stroke volume (the amount of blood pumped) remains unchanged.[5] During this time, approximately 50 to 70 percent of the body's blood flow is redistributed from the core to the skin to facilitate sweating. The average person loses approximately 0.5 kg of sweat while sauna bathing.[11] Acute heat exposure also induces a transient increase in overall plasma volume to mitigate the decrease in core blood volume. This increase in plasma volume not only provides a reserve source of fluid for sweating, but it also acts like the water in a car's radiator, cooling the body to prevent rapid increases in core body temperature and promoting heat tolerance… Repeated sauna use acclimates the body to heat and optimizes the body's response to future exposures, likely due to a biological phenomenon known as hormesis, a compensatory defense response following exposure to a mild stressor that is disproportionate to the magnitude of the stressor. Hormesis triggers a vast array of protective mechanisms that not only repair cell damage but also provide protection from subsequent exposures to more devastating stressors… The physiological responses to sauna use are remarkably similar to those experienced during moderate- to vigorous-intensity exercise. In fact, sauna use has been proposed as an alternative to exercise for people who are unable to engage in physical activity due to chronic disease or physical limitations.[13]\n\nBased on the article, which of the following statements is the author likely to agree with?. .  \n Here are the Options: \nA:Heart surgery patients who cannot run on treadmills may benefit from sauna use.\nB:Patients on a diet would benefit from sauna use.\nC:Salt restriction would be equal to sauna use for hypertensive patients.\nD:Patients with skin conditions may be cured with sauna use.. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"A",
+        "Context":null,
+        "Correct Answer":"A",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_college_medicine",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Diisopropylfluorophosphate (DFP) binds to the active site of acetylcholinesterase (ACE) in the synapses of neurons. When DFP binds to ACE, the ACE enzyme is rendered permanently inactive. This makes DFP a potent toxin, with lethal amounts at less than 100 mg. The interaction between DFP and ACE can best be characterized as:. .  \n Here are the Options: \nA:Competitive inhibition\nB:Noncompetitive inhibition\nC:Irreversible inhibition\nD:Partially competitive inhibition. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"C",
+        "Context":null,
+        "Correct Answer":"C",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_college_medicine",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: The process of translation requires the presence of:. .  \n Here are the Options: \nA:mRNA, tRNA and ribosomes.\nB:mRNA, ribosomes and RNA polymerase.\nC:DNA, mRNA and RNA polymerase.\nD:chromatin, DNA and amino acids.. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"A",
+        "Context":null,
+        "Correct Answer":"A",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_college_medicine",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Performance enhancing synthetic steroids are based on the structure of the hormone:. .  \n Here are the Options: \nA:testosterone.\nB:cortisol.\nC:progesterone.\nD:aldosterone.. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"A",
+        "Context":null,
+        "Correct Answer":"A",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_medical_genetics",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Mapping of human chromosomes:. .  \n Here are the Options: \nA:has been restricted to the sex chromosomes because of small family sizes\nB:proceeded much more successfully as large numbers of DNA markers became available.\nC:has determined that the number of linkage groups is about twice the number of chromosomes\nD:has demonstrated that almost all of the DNA is involved in coding for genes. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"B",
+        "Context":null,
+        "Correct Answer":"B",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_medical_genetics",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Intergenerational transmission to offspring can occur as a result of parental exposures to ______.. .  \n Here are the Options: \nA:war\nB:natural disasters\nC:hunger\nD:all of these. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"D",
+        "Context":null,
+        "Correct Answer":"D",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_medical_genetics",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Asp235Phe in a molecular report indicates that:. .  \n Here are the Options: \nA:asparagine has been replaced by phenylalanine.\nB:phenylalanine has been replaced by asparagine.\nC:aspartic acid has been replaced by phenylalanine.\nD:phenylalanine has been replaced by aspartic acid.. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"C",
+        "Context":null,
+        "Correct Answer":"C",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_medical_genetics",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: The risk of abnormality in the child of a mother with untreated phenylketonuria is:. .  \n Here are the Options: \nA:1%\nB:10%\nC:25%\nD:Almost 100%. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"D",
+        "Context":null,
+        "Correct Answer":"D",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_medical_genetics",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Exon skipping is associated with:. .  \n Here are the Options: \nA:nonsense mutations.\nB:regulatory mutations.\nC:RNA processing mutations.\nD:silent mutations.. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"A",
+        "Context":null,
+        "Correct Answer":"C",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_professional_medicine",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Six healthy subjects participate in a study of muscle metabolism during which hyperglycemia and hyperinsulinemia is induced. Muscle biopsy specimens obtained from the subjects during the resting state show significantly increased concentrations of malonyl-CoA. The increased malonyl-CoA concentration most likely directly inhibits which of the following processes in these subjects?. .  \n Here are the Options: \nA:Fatty acid oxidation\nB:Fatty acid synthesis\nC:Gluconeogenesis\nD:Glycogenolysis. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"A",
+        "Context":null,
+        "Correct Answer":"A",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_professional_medicine",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: A 72-year-old woman with advanced ovarian cancer metastatic to the liver is brought to the physician by her son because she cries all the time and will not get out of bed. On a 10-point scale, she rates the pain as a 1 to 2. She also has hypertension and major depressive disorder. She has received chemotherapy for 2 years. Current medications also include oxycodone (10 mg twice daily), hydrochlorothiazide (25 mg\/d), and fluoxetine (20 mg\/d). She is 165 cm (5 ft 5 in) tall and weighs 66 kg (145 lb); BMI is 24 kg\/m2 . Her temperature is 37°C (98.6°F), pulse is 110\/min, respirations are 12\/min, and blood pressure is 120\/80 mm Hg. Examination shows a firm, distended abdomen with moderate tenderness over the liver. On mental status examination, she is oriented to person, place, and time. She has good eye contact but appears sad and cries easily. Which of the following is the most appropriate next step in management?. .  \n Here are the Options: \nA:Reassurance\nB:Assess for suicidal ideation\nC:Begin dextroamphetamine therapy\nD:Increase oxycodone dosage. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"B",
+        "Context":null,
+        "Correct Answer":"B",
+        "Score":1
+    },
+    {
+        "Task":"mmlu_professional_medicine",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: A 65-year-old woman has a 6-month history of progressive irritability, palpitations, heat intolerance, frequent bowel movements, and a 6.8-kg (15-lb) weight loss. She has had a neck mass for more than 10 years. 131I scan shows an enlarged thyroid gland with multiple areas of increased and decreased uptake. Which of the following is the most likely diagnosis?. .  \n Here are the Options: \nA:Defect in thyroxine (T4) biosynthesis\nB:Graves' disease\nC:Multinodular goiter\nD:Riedel's thyroiditis. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"A",
+        "Context":null,
+        "Correct Answer":"C",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_professional_medicine",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: A 51-year-old man comes to the office because of a 6-month history of a lump on his tongue that is interfering with his speech and eating; he also has had a 6.8-kg (15-lb) weight loss during this period. He has smoked 1 pack of cigarettes daily and has consumed six 12-oz bottles of beer on weekend nights during the past 30 years. His vital signs are within normal limits. Physical examination shows a 1.5-cm mass on the apex of the tongue. Further evaluation of the mass confirms squamous cell carcinoma. It is most appropriate to evaluate which of the following lymph nodes first for evidence of metastasis in this patient?. .  \n Here are the Options: \nA:Inferior deep cervical\nB:Parotid\nC:Retropharyngeal\nD:Submental. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"A",
+        "Context":null,
+        "Correct Answer":"D",
+        "Score":0
+    },
+    {
+        "Task":"mmlu_professional_medicine",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: A 42-year-old man comes to the physician for a follow-up examination 1 week after he passed a renal calculus. X-ray crystallographic analysis of the calculus showed calcium as the primary cation. Physical examination today shows no abnormalities. A 24-hour collection of urine shows increased calcium excretion. Which of the following is the most appropriate pharmacotherapy?. .  \n Here are the Options: \nA:Carbonic anhydrase inhibitor\nB:Na+ –Cl− symport inhibitor\nC:Na+ –K + –2Cl− symport inhibitor\nD:Osmotic diuretic. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"C",
+        "Context":null,
+        "Correct Answer":"B",
+        "Score":0
+    },
+    {
+        "Task":"pubmedqa",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Spinal subdural hematoma: a sequela of a ruptured intracranial aneurysm?. \n\nMake use of the following context to formulate your final answer: A case of spinal subdural hematoma (SSDH) following subarachnoid hemorrhage (SAH) because of a ruptured internal carotid aneurysm is described. Such a case has never been reported.\n\nA 52-year-old woman underwent a craniotomy for a ruptured internal carotid aneurysm. A computed tomography scan showed that SAH existed predominantly in the posterior fossa and subdural hematoma beneath the cerebellar tentorium. Intrathecal administration of urokinase, IV administration of fasudil hydrochloride, and continuous cerebrospinal fluid (CSF) evacuation via cisternal drainage were performed as prophylactic treatments for vasospasm. On the sixth postoperative day, the patient complained of severe lower back and buttock pain. Magnetic resonance imaging showed a subdural hematoma in the lumbosacral region. Although the mass effect was extensive, the patient showed no neurologic symptoms other than the sciatica. She was treated conservatively. The hematoma dissolved gradually and had diminished completely 15 weeks later. Her pain gradually subsided, and she was discharged 7 weeks later without any neurologic deficit.\n\n.  \n Here are the Options: \nA:yes\nB:no\nC:maybe. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"B",
+        "Context":[
+            "A case of spinal subdural hematoma (SSDH) following subarachnoid hemorrhage (SAH) because of a ruptured internal carotid aneurysm is described. Such a case has never been reported.",
+            "A 52-year-old woman underwent a craniotomy for a ruptured internal carotid aneurysm. A computed tomography scan showed that SAH existed predominantly in the posterior fossa and subdural hematoma beneath the cerebellar tentorium. Intrathecal administration of urokinase, IV administration of fasudil hydrochloride, and continuous cerebrospinal fluid (CSF) evacuation via cisternal drainage were performed as prophylactic treatments for vasospasm. On the sixth postoperative day, the patient complained of severe lower back and buttock pain. Magnetic resonance imaging showed a subdural hematoma in the lumbosacral region. Although the mass effect was extensive, the patient showed no neurologic symptoms other than the sciatica. She was treated conservatively. The hematoma dissolved gradually and had diminished completely 15 weeks later. Her pain gradually subsided, and she was discharged 7 weeks later without any neurologic deficit."
+        ],
+        "Correct Answer":"A",
+        "Score":0
+    },
+    {
+        "Task":"pubmedqa",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Is there a correlation between androgens and sexual desire in women?. \n\nMake use of the following context to formulate your final answer: For women, the correlation between circulating androgens and sexual desire is inconclusive. Substitution with androgens at physiological levels improves sexual function in women who experience decreased sexual desire and androgen deficiency from surgical menopause, pituitary disease, and age-related decline in androgen production in the ovaries. Measuring bioactive testosterone is difficult and new methods have been proposed, including measuring the primary androgen metabolite androsterone glucuronide (ADT-G).AIM: The aim of this study was to investigate a possible correlation between serum levels of androgens and sexual desire in women and whether the level of ADT-G is better correlated than the level of circulating androgens with sexual desire.\n\nThis was a cross-sectional study including 560 healthy women aged 19-65 years divided into three age groups. Correlations were considered to be statistically significant at P<0.05.\n\nSexual desire was determined as the total score of the sexual desire domain of the Female Sexual Function Index. Total testosterone (TT), calculated free testosterone (FT), androstenedione, dehydroepiandrosterone sulfate (DHEAS), and ADT-G were analyzed using mass spectrometry.\n\nSexual desire correlated overall with FT and androstenedione in the total cohort of women. In a subgroup of women aged 25-44 years with no use of systemic hormonal contraception, sexual desire correlated with TT, FT, androstenedione, and DHEAS. In women aged 45-65 years, androstenedione correlated with sexual desire. No correlations between ADT-G and sexual desire were identified.\n\n.  \n Here are the Options: \nA:yes\nB:no\nC:maybe. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"B",
+        "Context":[
+            "For women, the correlation between circulating androgens and sexual desire is inconclusive. Substitution with androgens at physiological levels improves sexual function in women who experience decreased sexual desire and androgen deficiency from surgical menopause, pituitary disease, and age-related decline in androgen production in the ovaries. Measuring bioactive testosterone is difficult and new methods have been proposed, including measuring the primary androgen metabolite androsterone glucuronide (ADT-G).AIM: The aim of this study was to investigate a possible correlation between serum levels of androgens and sexual desire in women and whether the level of ADT-G is better correlated than the level of circulating androgens with sexual desire.",
+            "This was a cross-sectional study including 560 healthy women aged 19-65 years divided into three age groups. Correlations were considered to be statistically significant at P<0.05.",
+            "Sexual desire was determined as the total score of the sexual desire domain of the Female Sexual Function Index. Total testosterone (TT), calculated free testosterone (FT), androstenedione, dehydroepiandrosterone sulfate (DHEAS), and ADT-G were analyzed using mass spectrometry.",
+            "Sexual desire correlated overall with FT and androstenedione in the total cohort of women. In a subgroup of women aged 25-44 years with no use of systemic hormonal contraception, sexual desire correlated with TT, FT, androstenedione, and DHEAS. In women aged 45-65 years, androstenedione correlated with sexual desire. No correlations between ADT-G and sexual desire were identified."
+        ],
+        "Correct Answer":"A",
+        "Score":0
+    },
+    {
+        "Task":"pubmedqa",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Is the zeolite hemostatic agent beneficial in reducing blood loss during arterial injury?. \n\nMake use of the following context to formulate your final answer: Uncontrolled hemorrhage is the leading cause of fatality. The aim of this study was to evaluate the effect of zeolite mineral (QuikClot - Advanced Clotting Sponge [QC-ACS]) on blood loss and physiological variables in a swine extremity arterial injury model.\n\nSixteen swine were used. Oblique groin incision was created and a 5 mm incision was made. The animals were allocated to: control group (n: 6): Pressure dressing was applied with manual pressure over gauze sponge; or QC group (n: 10): QC was directly applied over lacerated femoral artery. Mean arterial pressure, blood loss and physiological parameters were measured during the study period.\n\nApplication of QC led to a slower drop in blood pressure. The control group had a significantly higher increase in lactate within 60 minutes. The mean prothrombin time in the control group was significantly increased at 60 minutes. The application of QC led to decreased total blood loss. The QC group had significantly higher hematocrit levels. QC application generated a significant heat production. There were mild edematous and vacuolar changes in nerve samples.\n\n.  \n Here are the Options: \nA:yes\nB:no\nC:maybe. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"A",
+        "Context":[
+            "Uncontrolled hemorrhage is the leading cause of fatality. The aim of this study was to evaluate the effect of zeolite mineral (QuikClot - Advanced Clotting Sponge [QC-ACS]) on blood loss and physiological variables in a swine extremity arterial injury model.",
+            "Sixteen swine were used. Oblique groin incision was created and a 5 mm incision was made. The animals were allocated to: control group (n: 6): Pressure dressing was applied with manual pressure over gauze sponge; or QC group (n: 10): QC was directly applied over lacerated femoral artery. Mean arterial pressure, blood loss and physiological parameters were measured during the study period.",
+            "Application of QC led to a slower drop in blood pressure. The control group had a significantly higher increase in lactate within 60 minutes. The mean prothrombin time in the control group was significantly increased at 60 minutes. The application of QC led to decreased total blood loss. The QC group had significantly higher hematocrit levels. QC application generated a significant heat production. There were mild edematous and vacuolar changes in nerve samples."
+        ],
+        "Correct Answer":"A",
+        "Score":1
+    },
+    {
+        "Task":"pubmedqa",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Are endothelial cell patterns of astrocytomas indicative of grade?. \n\nMake use of the following context to formulate your final answer: The most common primary brain tumors in children and adults are of astrocytic origin. Classic histologic grading schemes for astrocytomas have included evaluating the presence or absence of nuclear abnormalities, mitoses, vascular endothelial proliferation, and tumor necrosis.\n\nWe evaluated the vascular pattern of 17 astrocytoma surgical specimens (seven from children and 10 from adults), and four normal brains obtained at autopsy, utilizing antibody to glial fibrillary acidic protein (GFAP) and von Willebrand factor (vWF) utilizing confocal microscopy. A modified WHO classification was used.\n\nAll tumor cases showed cells positive for GFAP. Control tissues showed a few, widely separated vessels. Pilocytic astrocytomas (four cases) showed lacy clusters of small-to-medium sized vessels, with intact vessel wall integrity. Diffuse, low grade astrocytoma (three cases) showed a staining pattern similar to control tissue; intermediate grade (one case), anaplastic astrocytoma (three cases) and gliobastoma multiforme (six cases) showed an increased vessel density with multiple small vessels (glomeruloid clusters), some with prominent intimal hyperplasia, loss of vessel wall integrity, and with numerous vWF-positive single cells\/microvessels within the tumor substance.\n\n.  \n Here are the Options: \nA:yes\nB:no\nC:maybe. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"A",
+        "Context":[
+            "The most common primary brain tumors in children and adults are of astrocytic origin. Classic histologic grading schemes for astrocytomas have included evaluating the presence or absence of nuclear abnormalities, mitoses, vascular endothelial proliferation, and tumor necrosis.",
+            "We evaluated the vascular pattern of 17 astrocytoma surgical specimens (seven from children and 10 from adults), and four normal brains obtained at autopsy, utilizing antibody to glial fibrillary acidic protein (GFAP) and von Willebrand factor (vWF) utilizing confocal microscopy. A modified WHO classification was used.",
+            "All tumor cases showed cells positive for GFAP. Control tissues showed a few, widely separated vessels. Pilocytic astrocytomas (four cases) showed lacy clusters of small-to-medium sized vessels, with intact vessel wall integrity. Diffuse, low grade astrocytoma (three cases) showed a staining pattern similar to control tissue; intermediate grade (one case), anaplastic astrocytoma (three cases) and gliobastoma multiforme (six cases) showed an increased vessel density with multiple small vessels (glomeruloid clusters), some with prominent intimal hyperplasia, loss of vessel wall integrity, and with numerous vWF-positive single cells\/microvessels within the tumor substance."
+        ],
+        "Correct Answer":"A",
+        "Score":1
+    },
+    {
+        "Task":"pubmedqa",
+        "Input":"<|start_header_id|>user<|end_header_id|> Question: Should cavitation in proximal surfaces be reported in cone beam computed tomography examination?. \n\nMake use of the following context to formulate your final answer: 79 adjacent proximal surfaces without restorations in permanent teeth were examined. Patients suspected to have carious lesions after a visual clinical and a bitewing examination participated in a CBCT examination (Kodak 9000 3D, 5 × 3.7 cm field of view, voxel size 0.07 mm). Ethical approval and informed consent were obtained according to the Helsinki Declaration. Radiographic assessment recording lesions with or without cavitation was performed by two observers in bitewings and CBCT sections. Orthodontic separators were placed interdentally between two lesion-suspected surfaces. The separator was removed after 3 days and the surfaces recorded as cavitated (yes\/no), i.e. validated clinically. Differences between the two radiographic modalities (sensitivity, specificity and overall accuracy) were estimated by analyzing the binary data in a generalized linear model.\n\nFor both observers, sensitivity was significantly higher for CBCT than for bitewings (average difference 33%, p<0.001) while specificity was not significantly different between the methods (p = 0.19). The overall accuracy was also significantly higher for CBCT (p<0.001).\n\n.  \n Here are the Options: \nA:yes\nB:no\nC:maybe. <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+        "Prediction":"B",
+        "Context":[
+            "79 adjacent proximal surfaces without restorations in permanent teeth were examined. Patients suspected to have carious lesions after a visual clinical and a bitewing examination participated in a CBCT examination (Kodak 9000 3D, 5 × 3.7 cm field of view, voxel size 0.07 mm). Ethical approval and informed consent were obtained according to the Helsinki Declaration. Radiographic assessment recording lesions with or without cavitation was performed by two observers in bitewings and CBCT sections. Orthodontic separators were placed interdentally between two lesion-suspected surfaces. The separator was removed after 3 days and the surfaces recorded as cavitated (yes\/no), i.e. validated clinically. Differences between the two radiographic modalities (sensitivity, specificity and overall accuracy) were estimated by analyzing the binary data in a generalized linear model.",
+            "For both observers, sensitivity was significantly higher for CBCT than for bitewings (average difference 33%, p<0.001) while specificity was not significantly different between the methods (p = 0.19). The overall accuracy was also significantly higher for CBCT (p<0.001)."
+        ],
+        "Correct Answer":"A",
+        "Score":0
+    }
+]

@@ -1,0 +1,51 @@
+Finally - out of queue
+Running teardown with pytest sessionfinish...
+
+==================================== ERRORS ====================================
+[31m[1m___________________ ERROR collecting test_multimed_qa_mcq.py ___________________[0m
+[1m[31mtest_multimed_qa_mcq.py[0m:84: in <module>
+    benchmark.evaluate(model=custom_model,batch_size=batch_size_number)[90m[39;49;00m
+[1m[31m../../.conda/envs/deepeval/lib/python3.10/site-packages/deepeval/benchmarks/multi_mcq_qa/multi_mcq_qa.py[0m:58: in evaluate
+    batch_predictions = [96mself[39;49;00m.batch_predict([90m[39;49;00m
+[1m[31m../../.conda/envs/deepeval/lib/python3.10/site-packages/deepeval/benchmarks/multi_mcq_qa/multi_mcq_qa.py[0m:161: in batch_predict
+    predictions = model.batch_generate(prompts,batch_size)[90m[39;49;00m
+[1m[31mtest_multimed_qa_mcq.py[0m:38: in batch_generate
+    [94mreturn[39;49;00m [item[[94m0[39;49;00m][[33m'[39;49;00m[33mgenerated_text[39;49;00m[33m'[39;49;00m] [94mfor[39;49;00m item [95min[39;49;00m pipe(prompts)][90m[39;49;00m
+[1m[31m../../.local/lib/python3.10/site-packages/transformers/pipelines/text_generation.py[0m:263: in __call__
+    [94mreturn[39;49;00m [96msuper[39;49;00m().[92m__call__[39;49;00m(text_inputs, **kwargs)[90m[39;49;00m
+[1m[31m../../.local/lib/python3.10/site-packages/transformers/pipelines/base.py[0m:1224: in __call__
+    outputs = [96mlist[39;49;00m(final_iterator)[90m[39;49;00m
+[1m[31m../../.local/lib/python3.10/site-packages/transformers/pipelines/pt_utils.py[0m:124: in __next__
+    item = [96mnext[39;49;00m([96mself[39;49;00m.iterator)[90m[39;49;00m
+[1m[31m../../.local/lib/python3.10/site-packages/transformers/pipelines/pt_utils.py[0m:125: in __next__
+    processed = [96mself[39;49;00m.infer(item, **[96mself[39;49;00m.params)[90m[39;49;00m
+[1m[31m../../.local/lib/python3.10/site-packages/transformers/pipelines/base.py[0m:1150: in forward
+    model_outputs = [96mself[39;49;00m._forward(model_inputs, **forward_params)[90m[39;49;00m
+[1m[31m../../.local/lib/python3.10/site-packages/transformers/pipelines/text_generation.py[0m:350: in _forward
+    generated_sequence = [96mself[39;49;00m.model.generate(input_ids=input_ids, attention_mask=attention_mask, **generate_kwargs)[90m[39;49;00m
+[1m[31m../../.local/lib/python3.10/site-packages/torch/utils/_contextlib.py[0m:115: in decorate_context
+    [94mreturn[39;49;00m func(*args, **kwargs)[90m[39;49;00m
+[1m[31m../../.local/lib/python3.10/site-packages/transformers/generation/utils.py[0m:1758: in generate
+    result = [96mself[39;49;00m._sample([90m[39;49;00m
+[1m[31m../../.local/lib/python3.10/site-packages/transformers/generation/utils.py[0m:2397: in _sample
+    outputs = [96mself[39;49;00m([90m[39;49;00m
+[1m[31m../../.local/lib/python3.10/site-packages/torch/nn/modules/module.py[0m:1501: in _call_impl
+    [94mreturn[39;49;00m forward_call(*args, **kwargs)[90m[39;49;00m
+[1m[31m../../.local/lib/python3.10/site-packages/accelerate/hooks.py[0m:166: in new_forward
+    output = module._old_forward(*args, **kwargs)[90m[39;49;00m
+[1m[31m../../.local/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py[0m:1183: in forward
+    logits = [96mself[39;49;00m.lm_head(hidden_states)[90m[39;49;00m
+[1m[31m../../.local/lib/python3.10/site-packages/torch/nn/modules/module.py[0m:1501: in _call_impl
+    [94mreturn[39;49;00m forward_call(*args, **kwargs)[90m[39;49;00m
+[1m[31m../../.local/lib/python3.10/site-packages/accelerate/hooks.py[0m:161: in new_forward
+    args, kwargs = module._hf_hook.pre_forward(module, *args, **kwargs)[90m[39;49;00m
+[1m[31m../../.local/lib/python3.10/site-packages/accelerate/hooks.py[0m:347: in pre_forward
+    set_module_tensor_to_device([90m[39;49;00m
+[1m[31m../../.local/lib/python3.10/site-packages/accelerate/utils/modeling.py[0m:400: in set_module_tensor_to_device
+    new_value = value.to(device)[90m[39;49;00m
+[1m[31mE   torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 1.96 GiB (GPU 0; 31.75 GiB total capacity; 28.80 GiB already allocated; 713.69 MiB free; 30.68 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF[0m
+[36m[1m=========================== short test summary info ============================[0m
+[31mERROR[0m test_multimed_qa_mcq.py - torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 1.96 GiB...
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+[31m[33m2 warnings[0m, [31m[1m1 error[0m[31m in 345.93s (0:05:45)[0m[0m
+No test cases found, please try again.

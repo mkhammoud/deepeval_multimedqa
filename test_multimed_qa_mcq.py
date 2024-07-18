@@ -85,7 +85,8 @@ quantization_config = BitsAndBytesConfig(
     load_in_4bit=True, bnb_4bit_compute_dtype=torch.bfloat16
 )
 
-model_path = "amew0/Meta-Llama-3-8B-Instruct-v240714045919"
+model_path = "amew0/l3-8b-medical-v240623023136"
+# model_path = "amew0/Meta-Llama-3-8B-Instruct-v240714045919"
 # model_path = "meta-llama/Meta-Llama-3-8B-Instruct"
 cache_dir = "/dpc/kunf0097/l3-8b"
 model = AutoModelForCausalLM.from_pretrained(
@@ -104,7 +105,7 @@ custom_model = CustomModel(model=model, tokenizer=tokenizer)
 # tb saved in config. change here NOT in the params
 number_of_rows_to_consider = None # None for all
 batch_size_number = None # None for no batching
-tasks = ["mmlu_clinical_knowledge"]
+tasks = ["mmlu_anatomy"]
 
 benchmark = Multi_MCQ_QA(
     tasks=tasks,

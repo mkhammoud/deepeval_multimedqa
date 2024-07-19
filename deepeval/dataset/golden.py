@@ -21,6 +21,7 @@ class Golden(BaseModel):
     source_file: Optional[str] = Field(
         default=None, serialization_alias="sourceFile"
     )
+    options: Optional[Dict] = Field(default=None)
 
 
 class ConversationalGolden(BaseModel):

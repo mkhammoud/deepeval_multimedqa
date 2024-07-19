@@ -1,7 +1,7 @@
 from typing import Union, List, Optional, Any
 import numpy as np
 from deepeval.utils import normalize_text
-
+import string
 
 # TODO: More scores are to be added
 class Scorer:
@@ -103,6 +103,39 @@ class Scorer:
         if not prediction:
             return 0
         return 1 if prediction.strip() == target.strip() else 0
+    
+    @classmethod
+    def exact_match_score_mcq(cls, target: str,prediction: str) -> int:
+        """Metrics that calculates whether two sequences matches exactly or not.
+
+        Args:
+            target (str): The target string.
+            prediction (str): The predicted string from the llm
+
+        Returns:
+            int: The exact match score.
+        """
+
+        if not prediction:
+            return 0
+        
+        parts = target.split(':', 1)
+        option = parts[0].strip() if len(parts) > 0 else ''
+        answer = parts[1].strip() if len(parts) > 1 else ''
+
+        if prediction.strip().lower() == option.strip().lower():
+            return 1
+        
+        elif prediction.strip().lower() == answer.strip().lower():
+            return 1
+        
+        elif prediction.strip().lower()== (option+":"+answer).strip().lower():
+            return 1
+        
+        else:
+            return 0
+
+
 
     @classmethod
     def quasi_exact_match_score(cls, target: str, prediction: str) -> int:

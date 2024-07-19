@@ -8,15 +8,12 @@ from deepeval.benchmarks.base_benchmark import DeepEvalBaseBenchmark
 from deepeval.models import DeepEvalBaseLLM
 from deepeval.benchmarks.multi_mcq_qa.template import Multi_MCQ_QA_PromptTemplate
 from deepeval.benchmarks.utils import should_use_batch
-from deepeval.utils import normalize_text
 from deepeval.scorer import Scorer
 import json
-import re
 
 class Multi_MCQ_QA(DeepEvalBaseBenchmark):
-
     def __init__(
-        self, dataset_path,system_message_template:str="You are a helpful AI Assistant",user_message_template:str="Question: {question} \n Options: {options} \n {context}  ",assistant_message_template:str="Assistant: {}",assistant_start_template:str="Assistant: ",number_of_rows_to_consider: int=None,tasks: List[str] = None, n_shots: int = 5,**kwargs
+        self,model: DeepEvalBaseLLM ,dataset_path,system_message_template:str="You are a helpful AI Assistant",user_message_template:str="Question: {question} \n Options: {options} \n {context}  ",assistant_message_template:str="Assistant: {}",assistant_start_template:str="Assistant: ",number_of_rows_to_consider: int=None,tasks: List[str] = None, n_shots: int = 5,**kwargs
     ):
         assert n_shots <= 5, "Multi_MCQ_QA only supports n_shots <= 5"
         super().__init__(**kwargs)
@@ -34,16 +31,17 @@ class Multi_MCQ_QA(DeepEvalBaseBenchmark):
         self.user_message_template=user_message_template
         self.assistant_message_template=assistant_message_template
         self.assistant_start_template=assistant_start_template
+        self.model=model
 
 
     def evaluate(
-        self, model: DeepEvalBaseLLM, batch_size: Optional[int] = None
+        self, batch_size: Optional[int] = None
     ) -> Dict:
         overall_correct_predictions = 0
         overall_total_predictions = 0
         predictions_row = []
         scores_row = []
-        use_batch = should_use_batch(model, batch_size)
+        use_batch = should_use_batch(self.model, batch_size)
 
         for task in self.tasks:
             goldens = self.load_benchmark_dataset(task)
@@ -59,29 +57,29 @@ class Multi_MCQ_QA(DeepEvalBaseBenchmark):
                 ):
                     goldens_batch = goldens[i : i + batch_size]
                     batch_predictions = self.batch_predict(
-                        model, task, goldens_batch, batch_size
+                         task, goldens_batch, batch_size
                     )
                     for golden, prediction_dict in zip(
                         goldens_batch, batch_predictions
                     ):
                         prediction = prediction_dict["prediction"]
                         score = prediction_dict["score"]
-                        if score and score!="N/A":
+                        if score:
                             task_correct_predictions += 1
                             overall_correct_predictions += 1
                         predictions_row.append(
-                            (task, golden.input,golden.options, prediction,golden.context,golden.expected_output,score)
+                            (task, golden.input, prediction,golden.context,golden.expected_output,score)
                         )
             else:
                 for golden in tqdm(goldens, desc=f"Processing {task}"):
                     prediction, score = self.predict(
-                        model, task, golden
+                        task, golden
                     ).values()
-                    if score and score!="N/A":
+                    if score:
                         task_correct_predictions += 1
                         overall_correct_predictions += 1
                     predictions_row.append(
-                        (task, golden.input,golden.options, prediction,golden.context,golden.expected_output,score)
+                        (task, golden.input, prediction,golden.context,golden.expected_output,score)
                     )
 
             task_accuracy = task_correct_predictions / task_total_predictions
@@ -97,7 +95,7 @@ class Multi_MCQ_QA(DeepEvalBaseBenchmark):
         # Create a DataFrame from task_results_data
         # Columns: 'Task', 'Input', 'Prediction', 'Score'
         self.predictions = pd.DataFrame(
-            predictions_row, columns=["Task", "Input", "Options","Prediction","Context","Correct Answer","Score"]
+            predictions_row, columns=["Task", "Input", "Prediction","Context","Correct Answer","Score"]
         )
         self.task_scores = pd.DataFrame(scores_row, columns=["Task", "Score"])
         self.overall_score = overall_accuracy
@@ -105,7 +103,7 @@ class Multi_MCQ_QA(DeepEvalBaseBenchmark):
         return overall_accuracy
 
     def predict(
-        self, model: DeepEvalBaseLLM, task: str, golden: Golden
+        self, task: str, golden: Golden
     ) -> Dict:
         # Define prompt template
         assert (
@@ -125,21 +123,21 @@ class Multi_MCQ_QA(DeepEvalBaseBenchmark):
 
         #print("Final Prompt: ",prompt)
 
-        prediction = model.generate(prompt)
+        prediction = self.model.generate(prompt)
         #print("LLM Prediction: ",prediction)
         # For native models, shouldn't happen but just in case
         if isinstance(prediction, tuple):
             prediction = prediction[0]
 
-        score = self.scorer.exact_match_score_mcq(
-                golden.expected_output, prediction
-            )
-
+        # Define Metric
+        score = self.scorer.exact_match_score(
+            golden.expected_output, prediction
+        )
         #print("Golden Expected Output: ",golden.expected_output)
         return {"prediction": prediction, "score": score}
 
     def batch_predict(
-        self, model: DeepEvalBaseLLM, task: str, goldens: List[Golden], batch_size:int
+        self, task: str, goldens: List[Golden], batch_size:int
     ) -> List[Dict]:
         # Define prompt template
         assert (
@@ -161,7 +159,7 @@ class Multi_MCQ_QA(DeepEvalBaseBenchmark):
             )
             prompts.append(prompt)
 
-        predictions = model.batch_generate(prompts,batch_size)
+        predictions = self.model.batch_generate(prompts,batch_size)
         if len(predictions) is not len(goldens):
             raise ValueError(
                 "Custom `batch_generate` method did not return the same number of generations as the number of prompts."
@@ -173,12 +171,9 @@ class Multi_MCQ_QA(DeepEvalBaseBenchmark):
             #print("Prediction: ",prediction)
             golden = goldens[i]
             # Define Metric
- 
-
-            score = self.scorer.exact_match_score_mcq(
+            score = self.scorer.exact_match_score(
                 golden.expected_output, prediction
             )
-
             #print("Score: ", score)
             #print("Golden Expected Output: ",golden.expected_output)
             res.append({"prediction": prediction, "score": score})
@@ -211,9 +206,9 @@ class Multi_MCQ_QA(DeepEvalBaseBenchmark):
             context_data = data["data"].get("Context", None)
 
             if context_data:
-                golden = Golden(input=input, expected_output=data["data"]["Correct Option"]+":"+data["data"]["Correct Answer"],options=data["data"]["Options"],context=context_data)
+                golden = Golden(input=input, expected_output=data["data"]["Correct Option"],context=context_data)
             else:
-                golden = Golden(input=input, expected_output=data["data"]["Correct Option"]+":"+data["data"]["Correct Answer"],options=data["data"]["Options"])
+                golden = Golden(input=input, expected_output=data["data"]["Correct Option"])
             goldens.append(golden)
 
         return goldens
